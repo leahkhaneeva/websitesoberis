@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title></title>
+    <style media="screen">
+      body{
+        width: 100%;
+        margin: 0;
+        background: #E9E9E9;
+        display: block;
+        position: relative;
+        /* height: 100%; */
+        /* overflow: hidden; */
+        cursor: url('images/cursor.svg'), auto;
+      }
+      body::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        background: url('images/desktop3.jpg');
+        width: 100%;
+        height: 3991px;
+        background-size: 100% auto ;
+        display: block;
+        opacity: .0;
+      }
+      html{
+        position: relative;
+        /* height: 100%; */
+        width: 100%;
+      }
+      h1,h2,h3{
+        font-family: "Steinbeck";
+        color: #EC622B;
+      }
+      .wrapper{
+        background: transparent;
+        position:relative;
+        width:100%;
+      }
+      .ratio{
+        position:relative;
+        padding-bottom: 277.152778%;
+        background:transparent;
+      }
+      .content{
+        position:absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+        padding:0;
+        background:transparent;
+      }
+      p{
+        font-family: "Steinbeck";
+        color: #EC622B;
+      }
+      .header{
+        display: block;
+        position: absolute;
+        top:0;
+        left:5.55555556%;
+        height:1.77900276%;
+        width:88.8888889%;
+        /* background: white; */
+        /* opacity: .2; */
+
+      }
+      .menu-items {
+          display: flex;
+          justify-content: space-between;
+          transition: all .4s;
+      }
+      .menu-items a {
+          font-size: 18px;
+          font-family: "Steinbeck";
+          color: #EC622B;
+          text-decoration: none;
+          margin-top:2%;
+      }
+      .afisha{
+        position: relative;
+        display: block;
+        height: 6.3893761%;
+        width:88.8888889%;
+        /* background: red; */
+        margin-left:5.55555556%;
+        margin-top: 4.9%;
+        /* opacity: .2; */
+      }
+      h1{
+        position: absolute;
+        font-size: 44px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        left: -0.2%;
+        top: 59%;
+      }
+      .postbox1{
+        position: relative;
+        display: block;
+        height: 19.6441994%;
+        width: 36.25%;
+        margin-left:5.55555556%;
+        background: #D0DDC6;
+        cursor: pointer;
+      }
+      .post1{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      .datenamebox1{
+        position: relative;
+        height: 3%;
+        width: 43.75%;
+        margin-left: 50.5%;
+        margin-top: -37.7%;
+        /* background: purple; */
+        /* opacity: .3; */
+      }
+      h2{
+        position: absolute;
+        font-size: 40px;
+      }
+      h3{
+        position: absolute;
+        font-size: 28px;
+        top: 51.7%;
+      }
+      .aboutbox1{
+        position: relative;
+        display: block;
+        height: 2.68103232%;
+        width: 43.75%;
+        margin-left: 50.5%;
+        margin-top: 2.6%;
+        /* background: yellow;
+        opacity: .3; */
+      }
+      .about1{
+        position: absolute;
+        font-size: 16px;
+        top: 0.7%;
+        left: 0.2%;
+      }
+      .button1{
+        position: relative;
+        display: block;
+        height: 0.95214232%;
+        width: 15%;
+        margin-left: 48.6%;
+        margin-top: 0.1%;
+        cursor: pointer;
+      }
+      .reg{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }
+      .postbox2{
+        position: relative;
+        display: block;
+        height: 19.6441994%;
+        width: 36.25%;
+        margin-left:5.55555556%;
+        margin-top: 21.8%;
+        background: #D0DDC6;
+        /* cursor: pointer; */
+      }
+      .post2{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      .datenamebox2{
+        position: relative;
+        height: 3%;
+        width: 43.75%;
+        margin-left: 50.5%;
+        margin-top: -38.2%;
+        /* background: purple; */
+        /* opacity: .3; */
+      }
+      /* .date2{
+        position: absolute;
+        font-size: 40px;
+      }
+      .name2{
+        position: absolute;
+        font-size: 28px;
+        top: 51.7%;
+      } */
+      .aboutbox2{
+        position: relative;
+        display: block;
+        height: 2.68103232%;
+        width: 43.75%;
+        margin-left: 50.5%;
+        margin-top: 2.6%;
+        /* background: yellow; */
+        /* opacity: .3; */
+      }
+      .about2{
+        position: absolute;
+        font-size: 16px;
+        top: 0.7%;
+        left: 0.2%;
+      }
+      .button2{
+        position: relative;
+        display: block;
+        height: 0.95214232%;
+        width: 15%;
+        margin-left: 48.6%;
+        margin-top: 1%;
+        cursor: pointer;
+      }
+      .reg{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }
+      .postbox3{
+        position: relative;
+        display: block;
+        height: 19.6441994%;
+        width: 36.25%;
+        margin-left:5.55555556%;
+        margin-top: 21.4%;
+        background: #D0DDC6;
+        cursor: pointer;
+      }
+      .post3{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      .datenamebox3{
+        position: relative;
+        height: 3%;
+        width: 43.75%;
+        margin-left: 50.5%;
+        margin-top: -37.9%;
+        /* background: purple;
+        opacity: .3; */
+      }
+      /* .date3{
+        position: absolute;
+        font-size: 40px;
+      }
+      .name3{
+        position: absolute;
+        font-size: 28px;
+        top: 51.7%;
+      } */
+      .aboutbox3{
+        position: relative;
+        display: block;
+        height: 2.68103232%;
+        width: 43.75%;
+        margin-left: 50.5%;
+        margin-top: 2.6%;
+        /* background: yellow;
+        opacity: .3; */
+      }
+      .about3{
+        position: absolute;
+        font-size: 16px;
+        top: 0.7%;
+        left: 0.2%;
+      }
+      .postbox4{
+        position: relative;
+        display: block;
+        height: 19.6441994%;
+        width: 36.25%;
+        margin-left:5.55555556%;
+        margin-top: 24.4%;
+        background: #D0DDC6;
+        cursor: pointer;
+      }
+      .post4{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      .datenamebox4{
+        position: relative;
+        height: 3%;
+        width: 43.75%;
+        margin-left: 50.5%;
+        margin-top: -37.7%;
+        /* background: purple; */
+        /* opacity: .3; */
+      }
+      /* .date4{
+        position: absolute;
+        font-size: 40px;
+      }
+      .name4{
+        position: absolute;
+        font-size: 28px;
+        top: 51.7%;
+      } */
+      .aboutbox4{
+        position: relative;
+        display: block;
+        height: 2.68103232%;
+        width: 43.75%;
+        margin-left: 50.5%;
+        margin-top: 2.6%;
+        /* background: yellow;
+        opacity: .3; */
+      }
+      .about4{
+        position: absolute;
+        font-size: 16px;
+        top: 0.7%;
+        left: 0.2%;
+      }
+      .footer{
+        display: block;
+        position: relative;
+        background: #F0F0F0;
+        left:0%;
+        width:100%;
+        height: 3.20721624%;
+        margin-top: 32%;
+        /* opacity: .3; */
+      }
+      .address{
+        position: absolute;
+        font-size: 16px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        left:5.5%;
+        top: 25%;
+        bottom: 8%;
+        line-height: 110%;
+
+      }
+      .phone{
+        position: absolute;
+        font-size: 16px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        left:5.5%;
+        top: 46%;
+        line-height: 110%;
+      }
+      .mail{
+        position: absolute;
+        font-size: 16px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        left:5.5%;
+        top: 65%;
+        line-height: 110%;
+      }
+      .design{
+        position: absolute;
+        font-size: 16px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        left: 82.5%;
+        top: 25%;
+        line-height: 110%;
+      }
+      .adc{
+        position: absolute;
+        font-size: 16px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        left: 82.5%;
+        top: 46%;
+        line-height: 110%;
+      }
+      .year{
+        position: absolute;
+        font-size: 16px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        left: 82.5%;
+        top: 65%;
+        line-height: 110%;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="ratio">
+        <div class="content">
+
+
+
+            <div class="header">
+               <div class="menu-items">
+                 <a href="index.html">соберись</a>
+                 <a href="afisha.html">события</a>
+                 <a href="construct.html">конструктор друга</a>
+                 <a href="istorii.html">счастливые истории</a>
+                 <a href="shop.html">магазин мерча</a>
+                 <a href="contacts.html">как к нам попасть</a>
+               </div>
+            </div>
+            <div class="afisha">
+              <h1>РАСПИСАНИЕ СОБЫТИЙ</h1>
+              <!-- <p class="raspis">РАСПИСАНИЕ СОБЫТИЙ</p> -->
+            </div>
+            <div class="postbox1">
+              <img class="post1" src="images/1.png" alt="">
+            </div>
+            <div class="datenamebox1">
+              <!-- <p class="date1">20.05, 17:00</p> -->
+              <h2>20.05, 17:00</h2>
+              <!-- <p class="name1">ПАБЛИК ТОК-ПРЕЗЕНТАЦИЯ <br> «ВООБРАЖАЕМЫЕ ДРУЗЬЯ – КТО ОНИ?»</p> -->
+              <h3>ПАБЛИК ТОК-ПРЕЗЕНТАЦИЯ <br> «ВООБРАЖАЕМЫЕ ДРУЗЬЯ – КТО ОНИ?»</h3>
+            </div>
+            <div class="aboutbox1">
+              <p class="about1">На паблик-токе специалисты Соберись расскажут <br> о деятельности центра и о том, чем опасно<br> одиночество. Вы узнаете, какими бывают<br> воображаемые друзья и как их оживить.</p>
+            </div>
+            <div class="button1">
+              <img class="reg" src="images/reg.svg" alt="">
+            </div>
+            <div class="postbox2">
+              <img class="post2" src="images/2.png" alt="">
+            </div>
+            <div class="datenamebox2">
+              <!-- <p class="date2">13.11, 19:00</p> -->
+              <h2>13.11, 19:00</h2>
+              <!-- <p class="name2">ПРЕЗЕНТАЦИЯ ЗИМНЕГО КАТАЛОГА <br> КУСОЧКОВ СОБЕРИСЬ</p> -->
+              <h3>ПРЕЗЕНТАЦИЯ ЗИМНЕГО КАТАЛОГА <br> КУСОЧКОВ СОБЕРИСЬ</h3>
+            </div>
+            <div class="aboutbox2">
+              <p class="about2">Центр Соберись выпускает новый зимний каталог <br> кусочков для сборки воображаемых друзей. <br> На мероприятии специалисты центра расскажут <br>о коллекции, а воображаемые друзья покажут на себе <br> кусочки, участвуя в небольшом фэшн-шоу.</p>
+            </div>
+            <div class="button2">
+              <img class="reg" src="images/reg.svg" alt="">
+            </div>
+            <div class="postbox3">
+              <img class="post3" src="images/3.png" alt="">
+            </div>
+            <div class="datenamebox3">
+              <!-- <p class="date3">09.06, 00:00</p> -->
+              <h2>09.06, 00:00</h2>
+              <!-- <p class="name3">ДРОП КАТАЛОГА КУСОЧКОВ <br> СОБЕРИСЬ ЛЕТО – ОСЕНЬ 2021</p> -->
+              <h3>ДРОП КАТАЛОГА КУСОЧКОВ <br> СОБЕРИСЬ ЛЕТО – ОСЕНЬ 2021</h3>
+            </div>
+            <div class="aboutbox3">
+              <p class="about3">9 июня в 00:00 на сайте Соберись появитя новая <br> летняя коллекция кусочков для сборки друзей. <br> Успейте посмотреть и забронировать их первыми, <br> так как линейка ограниченная.</p>
+            </div>
+            <div class="postbox4">
+              <img class="post4" src="images/4.png" alt="">
+            </div>
+            <div class="datenamebox4">
+              <!-- <p class="date4">10.06 – 10.07</p> -->
+              <h2>10.06 – 10.07</h2>
+              <!-- <p class="name4">СПЕЦИАЛЬНАЯ АКЦИЯ <br> «ПРИДУМАЙ, НАРИСУЙ, ОЖИВИ»</p> -->
+              <h3>СПЕЦИАЛЬНАЯ АКЦИЯ <br> «ПРИДУМАЙ, НАРИСУЙ, ОЖИВИ»</h3>
+            </div>
+            <div class="aboutbox4">
+              <p class="about4">На паблик-токе специалисты Соберись расскажут <br> о деятельности центра и о том, чем опасно <br> одиночество. Вы узнаете, какими бывают <br> воображаемые друзья и как их оживить.</p>
+            </div>
+            <div class="footer">
+              <p class="address">Москва, Проспект Ленина, 45, строение 1</p>
+              <p class="phone">+7-499-252-48-61</p>
+              <p class="mail">soberis@gmail.com</p>
+              <p class="design">Дизайн: Ханеева Лия</p>
+              <p class="adc">HSE ADC</p>
+              <p class="year">2021</p>
+
+            </div>
+
+
+
+    </div>
+    </div>
+  </div>
+  </body>
+</html>

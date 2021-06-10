@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title></title>
+    <style media="screen">
+      body{
+        width: 100%;
+        margin: 0;
+        background: #E9E9E9;
+        display: block;
+        position: relative;
+        /* height: 100%; */
+        /* overflow: hidden; */
+        cursor: url('images/cursor.svg'), auto;
+      }
+      body::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        background: url('images/desktop1.jpg');
+        width: 100%;
+        height: 2676px;
+        background-size: 100% auto ;
+        display: block;
+        opacity: .0;
+      }
+      html{
+        position: relative;
+        /* height: 100%; */
+        width: 100%;
+      }
+      .wrapper{
+        background: transparent;
+        position: relative;
+        width:100%;
+      }
+      .ratio{
+        position:relative;
+        padding-bottom: 185.833333%;
+        background:transparent;
+      }
+      .content{
+        position:absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+        padding:0;
+        background:transparent;
+      }
+
+
+
+      p{
+        font-family: "Steinbeck";
+        color: #EC622B;
+      }
+      .header{
+        display: block;
+        position: absolute;
+        top:0;
+        left:5.55555556%;
+        height:2.65321375%;
+        width:88.8888889%;
+        /* background: white; */
+        /* opacity: .2; */
+
+      }
+      .menu-items {
+          display: flex;
+          justify-content: space-between;
+          transition: all .4s;
+      }
+      .menu-items a {
+          font-size: 18px;
+          font-family: "Steinbeck";
+          color: #EC622B;
+          text-decoration: none;
+          margin-top:2%;
+      }
+      .hello{
+        position: absolute;
+        top:2.59%;
+        left:5.4%;
+        width:90%;
+        height: 18.4230194%;
+        /* background: red; */
+      }
+      .welcome{
+        margin-top: 11.4%;
+        font-size: 44px;
+        line-height: 110%;
+      }
+      .photo{
+        position: absolute;
+        top:21%;
+        left:5.55555556%;
+        width:90%;
+        height: 28.3258595%;
+        /* background: blue;
+        opacity: .2; */
+      }
+      .sl{
+        position: absolute;
+        left: 7.9%;
+        width: 83%;
+      }
+      .larrow1{
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 28.5%;
+        width: 5.55%;
+        cursor: pointer;
+      }
+      .rarrow1{
+        position: absolute;
+        margin-left: 93.05%;
+        margin-top: 28.5%;
+        width: 5.55%;
+        cursor: pointer;
+      }
+      .forma{
+        position: absolute;
+        top:49.34%;
+        left:5.3%;
+        width:88.8888889%;
+        height: 23.5799701%;
+        /* background: pink;
+        opacity: .2; */
+      }
+      .esli{
+        margin-top: 12.9%;
+        font-size: 44px;
+        line-height: 110%;
+      }
+      .button1{
+        position: absolute;
+        margin-left: 30%;
+        margin-top: 5%;
+        width: 40.6%;
+      }
+      .boxes{
+        display: block;
+        position: absolute;
+        top:73%;
+        left:5.5%;
+        width:88.8888889%;
+        height: 22.2346786%;
+        /* background: purple; */
+        /* opacity: .2; */
+      }
+
+      .box1{
+        /* left: 0%; */
+        position: absolute;
+        width: 32.265625%;
+        height: 69.4117647%;
+        background-color: #D0DDC6;
+        /* text-align: center; */
+      }
+      .box2{
+        position: absolute;
+        /* margin-top: -32.3%; */
+        left: 33.85%;
+        width: 32.265625%;
+        height: 69.4117647%;
+        background-color: #D0DDC6;
+      }
+      .box3{
+        position: absolute;
+        /* margin-top: -32.3%; */
+        left: 67.68%;
+        width: 32.265625%;
+        height: 69.4117647%;
+        background-color: #D0DDC6;
+      }
+      .text{
+        /* position: relative; */
+        font-size: 28px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        margin-left: 5%;
+        line-height: 111%;
+        margin-top: 6%;
+      }
+      .link1{
+        text-align: center;
+        margin-top: 30%;
+      }
+      .link1 a{
+        font-size: 24px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        line-height: 120%;
+      }
+      .link2{
+        text-align: center;
+        margin-top: 22.3%;
+      }
+      .link2 a{
+        font-size: 24px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        line-height: 120%;
+      }
+      .link3{
+        text-align: center;
+        margin-top: 37.3%;
+      }
+      .link3 a{
+        font-size: 24px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        line-height: 120%;
+      }
+      .footer{
+        display: block;
+        position: absolute;
+        background: #F0F0F0;
+        left:0%;
+        width:100%;
+        height: 4.78325859%;
+        top:95.2%;
+        /* opacity: .3; */
+      }
+      .address{
+        position: absolute;
+        font-size: 16px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        left:5.5%;
+        top: 25%;
+        bottom: 8%;
+        line-height: 110%;
+
+      }
+      .phone{
+        position: absolute;
+        font-size: 16px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        left:5.5%;
+        top: 46%;
+        line-height: 110%;
+      }
+      .mail{
+        position: absolute;
+        font-size: 16px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        left:5.5%;
+        top: 65%;
+        line-height: 110%;
+      }
+      .design{
+        position: absolute;
+        font-size: 16px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        left: 82.5%;
+        top: 25%;
+        line-height: 110%;
+      }
+      .adc{
+        position: absolute;
+        font-size: 16px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        left: 82.5%;
+        top: 46%;
+        line-height: 110%;
+      }
+      .year{
+        position: absolute;
+        font-size: 16px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        left: 82.5%;
+        top: 65%;
+        line-height: 110%;
+      }
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="ratio">
+        <div class="content">
+
+             <div class="header">
+                <div class="menu-items">
+                  <a href="index.html">соберись</a>
+                  <a href="afisha.html">события</a>
+                  <a href="construct.html">конструктор друга</a>
+                  <a href="istorii.html">счастливые истории</a>
+                  <a href="shop.html">магазин мерча</a>
+                  <a href="contacts.html">как к нам попасть</a>
+                </div>
+             </div>
+             <div class="hello">
+              <p class="welcome">ДОБРО ПОЖАЛОВАТЬ НА СТРАНИЦУ ПЕРВОГО ЦЕНТРА ПО ОЖИВЛЕНИЮ ВООБРАЖАЕМЫХ ДРУЗЕЙ «СОБЕРИСЬ»! ЕСЛИ У ВАС НЕТ ДРУЗЕЙ, МЫ БУДЕМ РАДЫ ПОМОЧЬ ВАМ ОБРЕСТИ ИХ И ЗАБЫТЬ ОБ ОДИНОЧЕСТВЕ НАВСЕГДА.</p>
+             </div>
+             <div class="photo">
+               <img class="larrow1" src="images/larrow1.svg" alt="">
+               <img class="sl" src="images/photo1.jpg" alt="">
+               <img class="rarrow1" src="images/rarrow1.svg" alt="">
+             </div>
+             <div class="forma">
+              <p class="esli">ЕСЛИ ВЫ ХОТИТЕ ОЖИВИТЬ ВООБРАЖАЕМОГО ДРУГА,</p>
+              <a href="forma.html"><img class="button1" src="images/button1.svg" alt=""></a>
+             </div>
+             <div class="boxes">
+                <div class="box1">
+                  <p class="text">В СОБЕРИСЬ РЕГУЛЯРНО ПРОХОДЯТ ПОЛЕЗНЫЕ МЕРОПРИЯТИЯ НА ТЕМУ ПСИХОЛОГИЧЕСКОГО ЗДОРОВЬЯ, ДРУЖБЫ <br> И ВРЕДА ОДИНОЧЕСТВА.</p>
+                  <div class="link1"><a href="afisha.html">СМОТРЕТЬ <br>АФИШУ</a></div>
+
+                </div>
+                <div class="box2">
+                  <p class="text">НАШИ КЛИЕНТЫ ДЕЛЯТСЯ ТЕМ, КАК СОБЕРИСЬ ИЗМЕНИЛ ИХ ЖИЗНЬ <br>И ПОДАРИЛ ИМ ЛУЧШИХ НА СВЕТЕ ДРУЗЕЙ, <br>И ПОМОГ ИМ ЗАБЫТЬ <br>ПРО ОДИНОЧЕСТВО.</p>
+                  <div class="link2"><a href="istorii.html">ЧИТАТЬ <br>ОТЗЫВЫ</a></div>
+                </div>
+                <div class="box3">
+                  <p class="text">КАНЦЕЛЯРСКИЕ ТОВАРЫ, ШОПЕРЫ, ЗНАЧКИ, ЧЕХЛЫ НА ТЕЛЕФОН И ДАЖЕ МАСКИ – ЧЕГО ТОЛЬКО НЕТ В МАГАЗИНЕ ЦЕНТРА.</p>
+                  <div class="link3"><a href="shop.html">ПЕРЕЙТИ <br>В МАГАЗИН</a></div>
+                </div>
+             </div>
+             <div class="footer">
+               <p class="address">Москва, Проспект Ленина, 45, строение 1</p>
+               <p class="phone">+7-499-252-48-61</p>
+               <p class="mail">soberis@gmail.com</p>
+               <p class="design">Дизайн: Ханеева Лия</p>
+               <p class="adc">HSE ADC</p>
+               <p class="year">2021</p>
+
+             </div>
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+   <!-- <p>СОБЕРИСЬ</p> -->
+
+  </body>
+</html>
