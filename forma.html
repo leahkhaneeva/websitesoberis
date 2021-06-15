@@ -15,7 +15,7 @@
         position: relative;
         /* height: 100%; */
         /* overflow: hidden; */
-        cursor: url('images/cursor2.svg'), auto;
+        cursor: none;
       }
       body::before{
         content: "";
@@ -215,6 +215,14 @@
         background: black;
         opacity: .3;
       }
+      #cursor {
+      position: absolute;
+      height: 23px;
+      width: 23px;
+      border-radius: 50%/50%;
+      border: 3px solid;
+      border-color: #EB632B;
+      }
 
 
 
@@ -232,6 +240,13 @@
     $(".dark").css('display', 'none');
     });
     });
+
+    $(document).mousemove(function(e) {
+  $('#cursor').css({
+    left:e.pageX - 10,
+    top:e.pageY - 10
+  });
+});
     </script>
 
 
@@ -268,6 +283,7 @@
           <div class="popup">
           <div class="cross"></div>
           </div>
+          <div id="cursor"></div>
 
 
 
