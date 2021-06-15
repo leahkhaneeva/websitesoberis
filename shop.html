@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheets/style.css">
     <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style media="screen">
     body{
       width: 100%;
@@ -120,10 +121,30 @@
     }
     .green1{
       position: absolute;
+      /* display: block; */
       width: 100%;
       height: 93%;
       background: #D0DDC6;
       opacity: .0;
+      transition: 0.2s;
+    }
+    .green1:hover{
+      opacity: 1;
+      transition: 0.2s;
+    }
+    .buybutton1{
+       position: absolute;
+       display: block;
+       top: 44%;
+       left: 25.5%;
+       height: 13.3171913%;
+       width: 47.6997579%;
+       background-image: url('images/buybutton1.svg');
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: 100% auto;
+       cursor: url('images/cursor.svg'), auto;
     }
     .photo{
       position: absolute;
@@ -245,6 +266,25 @@
       top: -0.083%;
       background: #D0DDC6;
       opacity: .0;
+      transition: 0.2s;
+    }
+    .green2:hover{
+      opacity: 1;
+      transition: 0.2s;
+    }
+    .buybutton2{
+       position: absolute;
+       display: block;
+       top: 50%;
+       left: 38%;
+       height: 6.03070125%;
+       width: 23.2585596%;
+       background-image: url('images/buybutton1.svg');
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: 100% auto;
+       cursor: url('images/cursor.svg'), auto;
     }
     .photo2{
       position: absolute;
@@ -467,10 +507,73 @@
       top: 65%;
       line-height: 110%;
     }
+    .popup{
+      display: none;
+      position: fixed;
+      width: 46.5277778%;
+      height: 29.4444444%;
+      top: 30%;
+      left: 26.9%;
+      background-image: url('images/popup2.svg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    }
+    .cross{
+      width: 3.08656716%;
+      height: 8.7%;
+      position: absolute;
+      top: 6.2%;
+      left: 94.5%;
+      background-image: url('images/cross.svg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      cursor: url('images/cursor.svg'), auto;
+    }
+    .dark{
+      position: absolute;
+      display: none;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: black;
+      opacity: .3;
+    }
 
 
 
     </style>
+
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $(".buybutton1").click(function(){
+    $(".popup").css('display', 'block');
+    $(".dark").css('display', 'block');
+    });
+    $(".cross").click(function(){
+    $(".popup").css('display', 'none');
+    $(".dark").css('display', 'none');
+    });
+    $(".buybutton2").click(function(){
+    $(".popup").css('display', 'block');
+    $(".dark").css('display', 'block');
+    });
+    $(".cross").click(function(){
+    $(".popup").css('display', 'none');
+    $(".dark").css('display', 'none');
+    });
+
+
+    });
+    </script>
+
+
+
   </head>
   <body>
     <div class="wrapper">
@@ -493,91 +596,122 @@
           <div class="goodiebag">
             <div class="item-box">
               <div class="photo"></div>
-              <div class="green1"></div>
+              <div class="green1">
+                <div class="buybutton1"></div>
+              </div>
               <p class="name">блокнот розовый</p>
               <p class="price">300р</p>
             </div>
             <div class="item-box2">
               <div class="photo"></div>
-              <div class="green1"></div>
+              <div class="green1">
+                <div class="buybutton1"></div>
+              </div>
               <p class="name">блокнот фиолетовый</p>
               <p class="price">300р</p>
             </div>
             <div class="item-box3">
               <div class="photo2 uno"></div>
-              <div class="green2"></div>
+              <div class="green2">
+                <div class="buybutton2"></div>
+              </div>
               <p class="name2">шопер фиолетовый</p>
               <p class="price2">1000р</p>
             </div>
             <div class="item-box4">
               <div class="photo three"></div>
-              <div class="green1"></div>
+              <div class="green1">
+                <div class="buybutton1"></div>
+              </div>
               <p class="name">шопер синий</p>
               <p class="price">1000р</p>
             </div>
             <div class="item-box5">
               <div class="photo four"></div>
-              <div class="green1"></div>
+              <div class="green1">
+                <div class="buybutton1">
+                </div>
+              </div>
               <p class="name">футболка кусочки</p>
               <p class="price">1000р</p>
             </div>
             <div class="item-box6">
               <div class="photo five"></div>
-              <div class="green1"></div>
+              <div class="green1">
+                <div class="buybutton1"></div>
+              </div>
               <p class="name">футболка друг</p>
               <p class="price">1000р</p>
             </div>
             <div class="item-box7">
               <div class="photo2 dos"></div>
-              <div class="green2"></div>
+              <div class="green2">
+                <div class="buybutton2"></div>
+              </div>
               <p class="name2">чехол кусочки</p>
               <p class="price2">500р</p>
             </div>
             <div class="item-box8">
               <div class="photo six"></div>
-              <div class="green1"></div>
+              <div class="green1">
+                <div class="buybutton1"></div>
+              </div>
               <p class="name">чехол друг 1</p>
               <p class="price">500р</p>
             </div>
             <div class="item-box9">
               <div class="photo seven"></div>
-              <div class="green1"></div>
+              <div class="green1">
+                <div class="buybutton1"></div>
+              </div>
               <p class="name">чехол друг 2</p>
               <p class="price">500р</p>
             </div>
             <div class="item-box10">
               <div class="photo eight"></div>
-              <div class="green1"></div>
+              <div class="green1">
+                <div class="buybutton1"></div>
+              </div>
               <p class="name">значок круглый 1</p>
               <p class="price">100р</p>
             </div>
             <div class="item-box11">
               <div class="photo nine"></div>
-              <div class="green1"></div>
+              <div class="green1">
+                <div class="buybutton1"></div>
+              </div>
               <p class="name">значок круглый 2</p>
               <p class="price">100р</p>
             </div>
             <div class="item-box12">
               <div class="photo ten"></div>
-              <div class="green1"></div>
+              <div class="green1">
+                <div class="buybutton1"></div>
+              </div>
               <p class="name">набор значков</p>
               <p class="price">100р</p>
           </div>
           <div class="item-box13">
             <div class="photo eleven"></div>
-            <div class="green1"></div>
+            <div class="green1">
+              <div class="buybutton1"></div>
+            </div>
             <p class="name">брелок квадратный 1</p>
             <p class="price">100р</p>
           </div>
           <div class="item-box14">
             <div class="photo twelve"></div>
-            <div class="green1"></div>
+            <div class="green1">
+              <div class="buybutton1"></div>
+            </div>
             <p class="name">брелок квадратный 2</p>
             <p class="price">300р</p>
           </div>
           <div class="item-box15">
             <div class="photo2 tres"></div>
-            <div class="green2"></div>
+            <div class="green2">
+              <div class="buybutton2"></div>
+            </div>
             <p class="name2">шопер фиолетовый</p>
             <p class="price2">1000р</p>
           </div>
@@ -591,6 +725,11 @@
           <p class="year">2021</p>
 
         </div>
+        <div class="dark"></div>
+        <div class="popup">
+        <div class="cross"></div>
+        </div>
+
 
 
       </div>

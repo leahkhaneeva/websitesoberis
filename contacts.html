@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheets/style.css">
     <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style media="screen">
       body{
         width: 100%;
@@ -136,6 +137,13 @@
         margin-left: 57.4%;
         margin-top: -30.8%;
         /* opacity: .2; */
+      }
+      .green{
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 100%;
+        background: #D0DDC6;
       }
       .photo{
         position: absolute;
@@ -272,6 +280,42 @@
         left: 38.1%;
         cursor: url('images/cursor.svg'), auto;
       }
+      .popup{
+        display: none;
+        position: fixed;
+        width: 46.5277778%;
+        height: 29.4444444%;
+        top: 30%;
+        left: 26.9%;
+        background-image: url('images/popup1.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .cross{
+        width: 3.08656716%;
+        height: 8.7%;
+        position: absolute;
+        top: 6.4%;
+        left: 94.5%;
+        background-image: url('images/cross.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        cursor: url('images/cursor.svg'), auto;
+      }
+      .dark{
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        opacity: .3;
+      }
       .bookbox{
         position: relative;
         height: 34.4679445%;
@@ -286,8 +330,43 @@
         width: 100%;
         top: 3.3%;
       }
+      .green{
+        position: absolute;
+        height: 86%;
+        width: 100%;
+        top: 10.3%;
+        background: #C1D2B4;
+      }
       .one{
         background-image: url('images/book1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .two{
+        background-image: url('images/book2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .three{
+        background-image: url('images/book3.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .four{
+        background-image: url('images/book5.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .five{
+        background-image: url('images/book4.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -318,6 +397,13 @@
         background-repeat: no-repeat;
         background-size: 100% auto;
         cursor: url('images/cursor.svg'), auto;
+      }
+      .calameo{
+        position: absolute;
+        font-size: 18px;
+        top: 88%;
+        left: 43%;
+        text-decoration: none;
       }
       .footer{
         display: block;
@@ -387,6 +473,85 @@
 
 
     </style>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".rarrow").click(function(){
+        if ($(".bookimg").hasClass("five")){
+          $(".bookimg").addClass("one");
+          setTimeout(function(){
+            $(".bookimg").removeClass("five");
+        }, 10);
+      } else if ( $(".bookimg").hasClass("two")){
+          $(".bookimg").addClass("three");
+          setTimeout(function(){
+            $(".bookimg").removeClass("two");
+        }, 100);
+      } else if ( $(".bookimg").hasClass("three")){
+        $(".bookimg").addClass("four");
+        setTimeout(function(){
+          $(".bookimg").removeClass("three");
+      }, 100);
+    } else if ( $(".bookimg").hasClass("four")){
+          $(".bookimg").addClass("five");
+          setTimeout(function(){
+            $(".bookimg").removeClass("four");
+        }, 100);
+      } else if ( $(".bookimg").hasClass("one")){
+            $(".bookimg").addClass("two");
+            setTimeout(function(){
+              $(".bookimg").removeClass("one");
+          }, 100);
+        };
+      });
+
+
+        $(".larrow").click(function(){
+          if ($(".bookimg").hasClass("one")){
+            $(".bookimg").addClass("five");
+            setTimeout(function(){
+              $(".bookimg").removeClass("one");
+          }, 10);
+        } else if ( $(".bookimg").hasClass("three")){
+            $(".bookimg").addClass("two");
+            setTimeout(function(){
+              $(".bookimg").removeClass("three");
+          }, 100);
+        } else if ( $(".bookimg").hasClass("four")){
+          $(".bookimg").addClass("three");
+          setTimeout(function(){
+            $(".bookimg").removeClass("four");
+        }, 100);
+      } else if ( $(".bookimg").hasClass("five")){
+            $(".bookimg").addClass("four");
+            setTimeout(function(){
+              $(".bookimg").removeClass("five");
+          }, 100);
+        } else if ( $(".bookimg").hasClass("two")){
+              $(".bookimg").addClass("one");
+              setTimeout(function(){
+                $(".bookimg").removeClass("two");
+            }, 100);
+          };
+        });
+
+        $(".submit").click(function(){
+        $(".popup").css('display', 'block');
+        $(".dark").css('display', 'block');
+        });
+        $(".cross").click(function(){
+        $(".popup").css('display', 'none');
+        $(".dark").css('display', 'none');
+        });
+
+
+
+
+      });
+
+    </script>
+
+
   </head>
   <body>
     <div class="wrapper">
@@ -434,9 +599,11 @@
             </div>
             <div class="bookbox">
               <h1>О&nbsp;ПРОСТРАНСТВЕ</h1>
+              <div class="green"></div>
               <div class="bookimg one"></div>
               <div class="larrow"></div>
               <div class="rarrow"></div>
+              <a href="https://en.calameo.com/read/006654385ce30bac0f38f" class="calameo">читать всю книгу</a>
             </div>
             <div class="footer">
               <p class="address">Москва, Проспект Ленина, 45, строение 1</p>
@@ -446,6 +613,10 @@
               <p class="adc">HSE ADC</p>
               <p class="year">2021</p>
 
+            </div>
+            <div class="dark"></div>
+            <div class="popup">
+            <div class="cross"></div>
             </div>
 
 
