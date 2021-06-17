@@ -34,6 +34,7 @@
         position: relative;
         /* height: 100%; */
         width: 100%;
+        cursor: none;
       }
 
       .wrapper{
@@ -66,7 +67,7 @@
         position: absolute;
         top: 15%;
         width: 5.7%;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       h1{
         position: absolute;
@@ -177,7 +178,7 @@
         width: 23.828125%;
         top: 73%;
         left: 38.1%;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .popup{
         display: none;
@@ -203,7 +204,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% auto;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .dark{
         position: absolute;
@@ -222,7 +223,17 @@
       border-radius: 50%/50%;
       border: 3px solid;
       border-color: #EB632B;
+      pointer-events: none;
+
       }
+      .fill{
+        background: #EB632B;
+        /* transition: 0.01s; */
+      }
+      html,* {
+        cursor:none;
+      }
+
 
 
 
@@ -232,8 +243,12 @@
     <script type="text/javascript">
     $(document).ready(function(){
     $(".submit").click(function(){
-    $(".popup").css('display', 'block');
-    $(".dark").css('display', 'block');
+      if ($('input[name="imya"]').val() && $('input[name="nomer"]').val() && $('input[name="pochta"]').val()){
+        $(".popup").css('display', 'block');
+        $(".dark").css('display', 'block');
+      }
+
+
     });
     $(".cross").click(function(){
     $(".popup").css('display', 'none');
@@ -246,6 +261,24 @@
     left:e.pageX - 10,
     top:e.pageY - 10
   });
+
+  $(document).mousemove(function(e) {
+$('.fill').css({
+  left:e.pageX - 10,
+  top:e.pageY - 10
+});
+
+  $(".submit, .larrow, .form-split input, .form-split2 input, .form-split3 input, .cross").mouseover(function(){
+$("#cursor").addClass("fill");
+});
+$(".submit, .larrow, .form-split input, .form-split2 input, .form-split3 input, .cross").mouseout(function(){
+$("#cursor").removeClass("fill");
+});
+});
+
+//   $(document).delegate("#cursor", "click", function() {
+//    window.location = $(this).find("a").attr("href");
+// });
 });
     </script>
 
@@ -266,15 +299,15 @@
           <div class="forma">
             <p class="name">1. имя:</p>
             <div class="form-split">
-              <input type="text" name="" value="" placeholder="">
+              <input type="text" name="imya" value="" placeholder="">
             </div>
             <p class="phone">2. телефон:</p>
             <div class="form-split2">
-              <input type="tel" name="" value="" placeholder="">
+              <input type="tel" name="nomer" value="" placeholder="">
             </div>
             <p class="email">3. почта:</p>
             <div class="form-split3">
-              <input type="email" name="" value="" placeholder="">
+              <input type="email" name="pochta" value="" placeholder="">
             </div>
             <img class="submit" src="images/submit.svg" alt="">
 
@@ -284,6 +317,7 @@
           <div class="cross"></div>
           </div>
           <div id="cursor"></div>
+
 
 
 

@@ -15,7 +15,7 @@
         position: relative;
         /* height: 100%; */
         /* overflow: hidden; */
-        cursor: url('images/cursor2.svg'), auto;
+        cursor: none;
       }
       /* body::before{
         content: "";
@@ -60,7 +60,7 @@
         color: #EC622B;
       }
       a{
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .header{
         display: block;
@@ -113,7 +113,7 @@
         width: 21.09375%;
         height: 41.9906687%;
         top: 5.1%;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .one{
         background-image: url('images/heart1.svg');
@@ -151,7 +151,7 @@
         height: 41.9906687%;
         top: 5.1%;
         left: 26.5%;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .odin{
         background-image: url('images/circle1.svg');
@@ -189,7 +189,7 @@
         height: 41.9906687%;
         top: 5.2%;
         left: 52.7%;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .a{
         background-image: url('images/shape1.svg');
@@ -227,7 +227,7 @@
         height: 41.9906687%;
         top: 5.1%;
         right: 0%;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .raz{
         background-image: url('images/crown1.svg');
@@ -265,7 +265,7 @@
         width: 21.09375%;
         height: 41.9906687%;
         top: 56.5%;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .uno{
         background-image: url('images/triang1.svg');
@@ -303,7 +303,7 @@
         height: 41.9906687%;
         top: 56.5%;
         left: 26.5%;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .un{
         background-image: url('images/square1.svg');
@@ -341,7 +341,7 @@
         height: 41.9906687%;
         top: 56.5%;
         left: 52.7%;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .o{
         background-image: url('images/star1.svg');
@@ -378,7 +378,7 @@
         height: 41.9906687%;
         top: 56.5%;
         right: 0%;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .r{
         background-image: url('images/half1.svg');
@@ -437,7 +437,7 @@
         width: 32.265625%;
         background: #D0DDC6;
         overflow: hidden;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .drug1{
         position: absolute;
@@ -703,6 +703,22 @@
         top: 65%;
         line-height: 110%;
       }
+      #cursor {
+      position: absolute;
+      height: 23px;
+      width: 23px;
+      border-radius: 50%/50%;
+      border: 3px solid;
+      border-color: #EB632B;
+      pointer-events: none;
+      }
+      .fill{
+        background: #EB632B;
+        /* transition: 0.01s; */
+      }
+      html,* {
+        cursor:none;
+      }
 
     </style>
     <script type="text/javascript">
@@ -901,10 +917,19 @@
         }, 100);
         };
       });
-
-
+      $(document).mousemove(function(e) {
+    $('#cursor').css({
+      left:e.pageX - 10,
+      top:e.pageY - 10
     });
-
+    $("a, .heart, .circle, .shape, .crown, .triang, .square, .star").mouseover(function(){
+  $("#cursor").addClass("fill");
+  });
+  $("a, .heart, .circle, .shape, .crown, .triang, .square, .star, .half").mouseout(function(){
+  $("#cursor").removeClass("fill");
+  });
+  });
+    });
 
 
 
@@ -1001,6 +1026,7 @@
              <p class="year">2021</p>
 
            </div>
+           <div id="cursor"></div>
 
 
 

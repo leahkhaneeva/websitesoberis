@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheets/style.css">
     <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style media="screen">
       body{
         width: 100%;
@@ -14,7 +15,7 @@
         position: relative;
         /* height: 100%; */
         /* overflow: hidden; */
-        cursor: url('images/cursor2.svg'), auto;
+        cursor: none;
       }
       /* body::before{
         content: "";
@@ -59,7 +60,7 @@
         color: #EC622B;
       }
       a{
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .header{
         display: block;
@@ -283,8 +284,45 @@
         top: 65%;
         line-height: 110%;
       }
+      #cursor {
+      position: absolute;
+      height: 23px;
+      width: 23px;
+      border-radius: 50%/50%;
+      border: 3px solid;
+      border-color: #EB632B;
+      pointer-events: none;
+      }
+      .fill{
+        background: #EB632B;
+        /* transition: 0.01s; */
+      }
+      html,* {
+        cursor:none;
+      }
 
     </style>
+
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $(document).mousemove(function(e) {
+  $('#cursor').css({
+    left:e.pageX - 10,
+    top:e.pageY - 10
+  });
+  $("a").mouseover(function(){
+$("#cursor").addClass("fill");
+});
+$("a").mouseout(function(){
+$("#cursor").removeClass("fill");
+});
+});
+  });
+
+    </script>
+
+
   </head>
   <body>
     <div class="wrapper">
@@ -353,6 +391,7 @@
             <p class="year">2021</p>
 
           </div>
+          <div id="cursor"></div>
 
 
 

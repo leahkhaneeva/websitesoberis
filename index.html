@@ -15,7 +15,7 @@
         position: relative;
         /* height: 100%; */
         /* overflow: hidden; */
-        cursor: url('images/cursor2.svg'), auto;
+        cursor: none;
       }
       body::before{
         content: "";
@@ -36,7 +36,7 @@
         width: 100%;
       }
       a{
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .wrapper{
         background: transparent;
@@ -117,7 +117,7 @@
         margin-left: 0%;
         margin-top: 28.5%;
         width: 5.55%;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .rarrow1{
         position: absolute;
@@ -125,7 +125,7 @@
         margin-top: 28.5%;
         width: 5.55%;
         cursor: pointer;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .forma{
         position: absolute;
@@ -143,10 +143,10 @@
       }
       .button1{
         position: absolute;
-        margin-left: 30%;
-        margin-top: 5%;
-        width: 40.6%;
-        cursor: url('images/cursor.svg'), auto;
+        margin-left: 32%;
+        margin-top: 6%;
+        width: 32.34375%;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .boxes{
         display: block;
@@ -289,11 +289,49 @@
         top: 65%;
         line-height: 110%;
       }
+      #cursor {
+      position: absolute;
+      height: 23px;
+      width: 23px;
+      border-radius: 50%/50%;
+      border: 3px solid;
+      border-color: #EB632B;
+      pointer-events: none;
+      }
+      .fill{
+        background: #EB632B;
+        /* transition: 0.01s; */
+      }
+      html,* {
+        cursor:none;
+      }
 
 
 
 
     </style>
+
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $(document).mousemove(function(e) {
+  $('#cursor').css({
+    left:e.pageX - 10,
+    top:e.pageY - 10
+  });
+
+
+  $("a, .larrow1, .rarrow1").mouseover(function(){
+$("#cursor").addClass("fill");
+});
+$("a, .larrow1, .rarrow1").mouseout(function(){
+$("#cursor").removeClass("fill");
+});
+});
+
+  });
+
+    </script>
   </head>
   <body>
     <div class="wrapper">
@@ -320,7 +358,7 @@
              </div>
              <div class="forma">
               <p class="esli">ЕСЛИ ВЫ&nbsp;ХОТИТЕ ОЖИВИТЬ ВООБРАЖАЕМОГО ДРУГА,</p>
-              <a href="forma.html"><img class="button1" src="images/button1.svg" alt=""></a>
+              <a href="forma.html"><img class="button1" src="images/button1-2.svg" alt=""></a>
              </div>
              <div class="boxes">
                 <div class="box1">
@@ -346,6 +384,7 @@
                <p class="year">2021</p>
 
              </div>
+             <div id="cursor"></div>
 
 
 

@@ -15,7 +15,7 @@
         position: relative;
         /* height: 100%; */
         /* overflow: hidden; */
-        cursor: url('images/cursor2.svg'), auto;
+        cursor: none;
       }
       /* body::before{
         content: "";
@@ -60,7 +60,7 @@
         color: #EC622B;
       }
       a{
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .header{
         display: block;
@@ -278,7 +278,7 @@
         width: 23.828125%;
         top: 82.3%;
         left: 38.1%;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .popup{
         display: none;
@@ -300,7 +300,7 @@
         width: 4.5%;
         height: 12%;
         /* background: black; */
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .cross{
         width: 62%;
@@ -392,7 +392,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% auto;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .rarrow{
         position: absolute;
@@ -405,7 +405,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% auto;
-        cursor: url('images/cursor.svg'), auto;
+        /* cursor: url('images/cursor.svg'), auto; */
       }
       .calameo{
         position: absolute;
@@ -479,6 +479,22 @@
         top: 65%;
         line-height: 110%;
       }
+      #cursor {
+      position: absolute;
+      height: 23px;
+      width: 23px;
+      border-radius: 50%/50%;
+      border: 3px solid;
+      border-color: #EB632B;
+      pointer-events: none;
+      }
+      .fill{
+        background: #EB632B;
+        /* transition: 0.01s; */
+      }
+      html,* {
+        cursor:none;
+      }
 
 
     </style>
@@ -545,14 +561,29 @@
         });
 
         $(".submit").click(function(){
-        $(".popup").css('display', 'block');
-        $(".dark").css('display', 'block');
+          if ($('input[name="imya"]').val() && $('input[name="nomer"]').val() && $('input[name="pochta"]').val()){
+            $(".popup").css('display', 'block');
+            $(".dark").css('display', 'block');
+          }
         });
         $(".crossbox").click(function(){
         $(".popup").css('display', 'none');
         $(".dark").css('display', 'none');
         });
 
+        $(document).mousemove(function(e) {
+      $('#cursor').css({
+        left:e.pageX - 10,
+        top:e.pageY - 10
+      });
+
+        $("a, .submit, .larrow, .rarrow, .form-split input, .form-split2 input, .form-split3 input, .cross").mouseover(function(){
+      $("#cursor").addClass("fill");
+      });
+      $("a, .submit, .larrow, .rarrow,  .form-split input, .form-split2 input, .form-split3 input, .cross").mouseout(function(){
+      $("#cursor").removeClass("fill");
+      });
+      });
 
 
 
@@ -594,15 +625,15 @@
 
               <p class="name">1. имя:</p>
               <div class="form-split">
-                <input type="text" name="" value="" placeholder="">
+                <input type="text" name="imya" value="" placeholder="">
               </div>
               <p class="telephone">2. телефон:</p>
               <div class="form-split2">
-                <input type="tel" name="" value="" placeholder="">
+                <input type="tel" name="nomer" value="" placeholder="">
               </div>
               <p class="email">3. почта:</p>
               <div class="form-split3">
-                <input type="email" name="" value="" placeholder="">
+                <input type="email" name="pochta" value="" placeholder="">
               </div>
               <img class="submit" src="images/submit.svg" alt="">
             </div>
@@ -629,6 +660,7 @@
             <div class="cross"></div>
             </div>
             </div>
+            <div id="cursor"></div>
 
 
 

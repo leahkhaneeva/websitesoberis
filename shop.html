@@ -15,7 +15,7 @@
       position: relative;
       /* height: 100%; */
       /* overflow: hidden; */
-      cursor: url('images/cursor2.svg'), auto;
+      cursor: none;
     }
     /* body::before{
       content: "";
@@ -60,7 +60,7 @@
       color: #EC622B;
     }
     a{
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .header{
       display: block;
@@ -117,7 +117,7 @@
       width: 32.3%;
       /* background: orange;
       opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .green1{
       position: absolute;
@@ -144,7 +144,7 @@
        background-position: center;
        background-repeat: no-repeat;
        background-size: 100% auto;
-       cursor: url('images/cursor.svg'), auto;
+       /* cursor: url('images/cursor.svg'), auto; */
     }
     .photo{
       position: absolute;
@@ -154,10 +154,18 @@
       /* opacity: .1; */
     }
     .one{
-
+      background-image: url('images/notebook1.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
     }
     .two{
-
+      background-image: url('images/notebook2.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
     }
     .three{
       background-image: url('images/bag2.png');
@@ -248,7 +256,7 @@
       top: 12.615%;
       /* background: orange;
       opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .item-box3{
       position: absolute;
@@ -257,7 +265,7 @@
       right: 0%;
       /* background: orange;
       opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .green2{
       position: absolute;
@@ -284,7 +292,7 @@
        background-position: center;
        background-repeat: no-repeat;
        background-size: 100% auto;
-       cursor: url('images/cursor.svg'), auto;
+       /* cursor: url('images/cursor.svg'), auto; */
     }
     .photo2{
       position: absolute;
@@ -333,7 +341,7 @@
       top: 25.25%;
       /* background: orange;
       opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .item-box5{
       position: absolute;
@@ -343,7 +351,7 @@
       left: 33.85%;
       /* background: orange;
       opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .item-box6{
       position: absolute;
@@ -353,7 +361,7 @@
       right: 0%;
       /* background: orange;
       opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .item-box7{
       position: absolute;
@@ -363,7 +371,7 @@
       top: 37.9%;
       /* background: orange; */
       /* opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .item-box8{
       position: absolute;
@@ -373,7 +381,7 @@
       right: 0%;
       /* background: orange;
       opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .item-box9{
       position: absolute;
@@ -383,7 +391,7 @@
       right: 0%;
       /* background: orange;
       opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .item-box10{
       position: absolute;
@@ -392,7 +400,7 @@
       top: 63.1%;
       /* background: orange;
       opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .item-box11{
       position: absolute;
@@ -402,7 +410,7 @@
       left: 33.85%;
       /* background: orange;
       opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .item-box12{
       position: absolute;
@@ -412,7 +420,7 @@
       right: 0%;
       /* background: orange;
       opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .item-box13{
       position: absolute;
@@ -421,7 +429,7 @@
       top: 75.759%;
       /* background: orange;
       opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .item-box14{
       position: absolute;
@@ -430,7 +438,7 @@
       top: 88.37%;
       /* background: orange;
       opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .item-box15{
       position: absolute;
@@ -440,7 +448,7 @@
       top: 75.76%;
       /* background: orange;
       opacity: .2; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .footer{
       display: block;
@@ -527,7 +535,7 @@
       width: 4.5%;
       height: 12%;
       /* background: black; */
-      cursor: url('images/cursor.svg'), auto;
+      /* cursor: url('images/cursor.svg'), auto; */
     }
     .cross{
       width: 62%;
@@ -552,6 +560,23 @@
       background: black;
       opacity: .3;
     }
+    #cursor {
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    border-radius: 50%/50%;
+    border: 3px solid;
+    border-color: #EB632B;
+    pointer-events: none;
+    }
+    .fill{
+      background: #EB632B;
+      /* transition: 0.01s; */
+    }
+    html,* {
+      cursor:none;
+    }
+
 
 
 
@@ -577,8 +602,20 @@
     $(".dark").css('display', 'none');
     });
 
+    $(document).mousemove(function(e) {
+  $('#cursor').css({
+    left:e.pageX - 10,
+    top:e.pageY - 10
+  });
 
-    });
+  $("a, .cross, .buybutton1, .buybutton2").mouseover(function(){
+$("#cursor").addClass("fill");
+});
+$("a, .cross, .buybutton1, .buybutton2").mouseout(function(){
+$("#cursor").removeClass("fill");
+});
+});
+  });
     </script>
 
 
@@ -604,7 +641,7 @@
           </div>
           <div class="goodiebag">
             <div class="item-box">
-              <div class="photo"></div>
+              <div class="photo one"></div>
               <div class="green1">
                 <div class="buybutton1"></div>
               </div>
@@ -612,7 +649,7 @@
               <p class="price">300р</p>
             </div>
             <div class="item-box2">
-              <div class="photo"></div>
+              <div class="photo two"></div>
               <div class="green1">
                 <div class="buybutton1"></div>
               </div>
@@ -740,6 +777,7 @@
         <div class="cross"></div>
         </div>
         </div>
+        <div id="cursor"></div>
 
 
 
