@@ -1139,8 +1139,8 @@
     .content h1{font-size: 32px;}
     .content h2{font-size: 36px;}
     .content h3{font-size: 22px;}
-    div .toppanel1_2{ display: block; top: -0.2%;height: 2%; }
-    div .burger2 {width: 10%;height: 32%;}
+    div .toppanel1_2{ display: block; top: 0%;height: 2%; }
+    div .burger2 {width: 10%;height: 32%; top: -2%;}
     div .footer2{height: 6.43863179%; top: 92%;}
     div .postbox1{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%; top: 3%;}
     div .postbox2{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%; top: 0.65%;}
