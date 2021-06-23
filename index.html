@@ -17,7 +17,7 @@
         /* overflow: hidden; */
         cursor: none;
       }
-      body::before{
+      /* body::before{
         content: "";
         position: absolute;
         left: 0;
@@ -28,8 +28,8 @@
         height: 2676px;
         background-size: 100% auto ;
         display: block;
-        opacity: .0;
-      }
+        opacity: .2;
+      } */
       html{
         position: relative;
         /* height: 100%; */
@@ -43,7 +43,7 @@
         position: relative;
         width:100%;
       }
-      .ratio{
+      .ratio1{
         position:relative;
         padding-bottom: 185.833333%;
         background:transparent;
@@ -60,6 +60,31 @@
       p{
         font-family: "Steinbeck";
         color: #EC622B;
+      }
+      .toppanel{
+        position: absolute;
+        display: none;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 2.64204545%;
+        background-image: url('images/toppanel.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .burger{
+        position: absolute;
+        left: 3.5%;
+        top: 35%;
+        width: 7.68229167%;
+        height: 29.0322581%;
+        background-image: url('images/burger.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
       }
       .header{
         display: block;
@@ -83,6 +108,9 @@
           color: #EC622B;
           text-decoration: none;
           margin-top:2%;
+      }
+      .menu-items a:hover{
+        filter: brightness(1.1);
       }
       .hello{
         position: absolute;
@@ -111,6 +139,10 @@
         position: absolute;
         left: 7.9%;
         width: 83%;
+        height: 100%;
+        background-image: url('images/sliderindex.png');
+        background-size: 600% 100%;
+        background-position: 0% 0;
       }
       .larrow1{
         position: absolute;
@@ -118,6 +150,9 @@
         margin-top: 28.5%;
         width: 5.55%;
         /* cursor: url('images/cursor.svg'), auto; */
+      }
+      .larrow1:hover{
+        filter: brightness(1.1);
       }
       .rarrow1{
         position: absolute;
@@ -127,7 +162,10 @@
         cursor: pointer;
         /* cursor: url('images/cursor.svg'), auto; */
       }
-      .forma{
+      .rarrow1:hover{
+        filter: brightness(1.1);
+      }
+      .forma1{
         position: absolute;
         top:49.34%;
         left:5.3%;
@@ -137,16 +175,42 @@
         opacity: .2; */
       }
       .esli{
-        margin-top: 12.9%;
+        position: absolute;
+        left: 0%;
+        top: 25.5%;
         font-size: 44px;
         line-height: 110%;
       }
       .button1{
         position: absolute;
-        margin-left: 32%;
-        margin-top: 6%;
+        display: block;
+        left: 32%;
+        top: 46%;
         width: 32.34375%;
         /* cursor: url('images/cursor.svg'), auto; */
+      }
+      .button1:hover{
+        filter: brightness(1.1);
+      }
+      .button1_2{
+        position: absolute;
+        display: none;
+        left: 30%;
+        top: 46%;
+        width: 38.2681564%;
+      }
+      .button1_2:hover{
+        filter: brightness(1.1);
+      }
+      .button1_3{
+        position: absolute;
+        display: none;
+        margin-left: 30%;
+        margin-top: 6%;
+        width: 64.6723647%;
+      }
+      .button1_2:hover{
+        filter: brightness(1.1);
       }
       .boxes{
         display: block;
@@ -165,6 +229,7 @@
         width: 32.265625%;
         height: 69.4117647%;
         background-color: #D0DDC6;
+        overflow: hidden;
         /* text-align: center; */
       }
       .box2{
@@ -174,6 +239,7 @@
         width: 32.265625%;
         height: 69.4117647%;
         background-color: #D0DDC6;
+        overflow: hidden;
       }
       .box3{
         position: absolute;
@@ -182,6 +248,7 @@
         width: 32.265625%;
         height: 69.4117647%;
         background-color: #D0DDC6;
+        overflow: hidden;
       }
       .text{
         /* position: relative; */
@@ -203,6 +270,9 @@
         color: #EC622B;
         line-height: 120%;
       }
+      .link1 a:hover{
+        filter: brightness(1.1);
+      }
       .link2{
         text-align: center;
         margin-top: 22.3%;
@@ -213,6 +283,9 @@
         color: #EC622B;
         line-height: 120%;
       }
+      .link2 a:hover{
+        filter: brightness(1.1);
+      }
       .link3{
         text-align: center;
         margin-top: 37.3%;
@@ -222,6 +295,9 @@
         font-family: "Steinbeck";
         color: #EC622B;
         line-height: 120%;
+      }
+      .link3 a:hover{
+        filter: brightness(1.1);
       }
       .footer{
         display: block;
@@ -262,21 +338,28 @@
         top: 65%;
         line-height: 110%;
       }
+      .korobka{
+        position: absolute;
+        height: 100%;
+        width: 12%;
+        right: 2%;
+      }
       .design{
         position: absolute;
         font-size: 16px;
         font-family: "Steinbeck";
         color: #EC622B;
-        left: 82.5%;
+        left: 0%;
         top: 25%;
         line-height: 110%;
+        width: 100%;
       }
       .adc{
         position: absolute;
         font-size: 16px;
         font-family: "Steinbeck";
         color: #EC622B;
-        left: 82.5%;
+        left: 0%;
         top: 46%;
         line-height: 110%;
       }
@@ -285,7 +368,7 @@
         font-size: 16px;
         font-family: "Steinbeck";
         color: #EC622B;
-        left: 82.5%;
+        left: 0%;
         top: 65%;
         line-height: 110%;
       }
@@ -305,6 +388,53 @@
       html,* {
         cursor:none;
       }
+      .sidebarfon{
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+        background: #E9E9E9;
+      }
+      .toppanel2{
+        position: relative;
+        display: block;
+        top: -0.6%;
+        left: 0%;
+        width: 100%;
+        height: 9.08203125%;
+        background-image: url('images/toppanel.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .cross1{
+        position: absolute;
+        left: 3.5%;
+        top: 35%;
+        width: 3.5%;
+        height: 34.5376344%;
+        background-image: url('images/cross1.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .sidebarfon a{
+        text-decoration: none;
+      }
+
+      .sidebarfontext{
+        position: relative;
+        left: 3.5%;
+        margin-top: 10%;
+        font-size: 32px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        width: 65%;
+      }
 
 
 
@@ -321,13 +451,68 @@
   });
 
 
-  $("a, .larrow1, .rarrow1").mouseover(function(){
-$("#cursor").addClass("fill");
+  $("a, .larrow1, .rarrow1, .burger, .cross1").mouseover(function(){
+  $("#cursor").addClass("fill");
+  });
+  $("a, .larrow1, .rarrow1, .burger, .cross1").mouseout(function(){
+  $("#cursor").removeClass("fill");
+  });
+  });
+
+
+    $(document).ready(function(){
+    let slider = 0;
+    let slider_result = 0;
+
+    $(".rarrow1").click(function(){
+    slider -= 100;
+    slider_result = slider+"%";
+    $(".sl").css("background-position", slider_result);
+  });
+  });
+  $(document).ready(function(){
+    let slider = 0;
+    let slider_result = 0;
+
+    $(".larrow1").click(function(){
+    slider += 100;
+    slider_result = slider+"%";
+    $(".sl").css("background-position", slider_result);
+  });
+  });
+
+    $(document).ready(function(){
+
+      let slider = 0;
+      let slider_result = 0;
+     if (screen.width < 501) {
+      $(".sl").click(function(){
+      slider += 100;
+      slider_result = slider+"%";
+      $(".sl").css("background-position", slider_result);
+    });
+    }
+else {
+
+}
 });
-$("a, .larrow1, .rarrow1").mouseout(function(){
-$("#cursor").removeClass("fill");
-});
-});
+
+  $(document).ready(function(){
+  $(".burger").click(function(){
+  $(".sidebarfon").css('display', 'block');
+  });
+  $("body").css({
+  height: '100vh',
+  // overflow: 'hidden'
+  });
+  $(".cross1").click(function(){
+  $(".sidebarfon").css('display', 'none');
+  });
+  });
+
+
+
+
 
   });
 
@@ -335,7 +520,7 @@ $("#cursor").removeClass("fill");
   </head>
   <body>
     <div class="wrapper">
-      <div class="ratio">
+      <div class="ratio1">
         <div class="content">
 
              <div class="header">
@@ -348,17 +533,24 @@ $("#cursor").removeClass("fill");
                   <a href="contacts.html">как к нам попасть</a>
                 </div>
              </div>
+             <div class="toppanel">
+               <div class="burger"></div>
+             </div>
              <div class="hello">
               <p class="welcome">ДОБРО ПОЖАЛОВАТЬ НА&nbsp;СТРАНИЦУ ПЕРВОГО ЦЕНТРА ПО&nbsp;ОЖИВЛЕНИЮ ВООБРАЖАЕМЫХ ДРУЗЕЙ &laquo;СОБЕРИСЬ&raquo;! ЕСЛИ У&nbsp;ВАС НЕТ ДРУЗЕЙ, МЫ&nbsp;БУДЕМ РАДЫ ПОМОЧЬ ВАМ ОБРЕСТИ ИХ&nbsp;И&nbsp;ЗАБЫТЬ ОБ&nbsp;ОДИНОЧЕСТВЕ НАВСЕГДА.</p>
              </div>
              <div class="photo">
                <img class="larrow1" src="images/larrow1.svg" alt="">
-               <img class="sl" src="images/photo1.jpg" alt="">
+               <div class="sl">
+
+               </div>
                <img class="rarrow1" src="images/rarrow1.svg" alt="">
              </div>
-             <div class="forma">
+             <div class="forma1">
               <p class="esli">ЕСЛИ ВЫ&nbsp;ХОТИТЕ ОЖИВИТЬ ВООБРАЖАЕМОГО ДРУГА,</p>
               <a href="forma.html"><img class="button1" src="images/button1-2.svg" alt=""></a>
+              <a href="forma.html"><img class="button1_2" src="images/button1_2.svg" alt=""></a>
+              <a href="forma.html"><img class="button1_3" src="images/button1_3.svg" alt=""></a>
              </div>
              <div class="boxes">
                 <div class="box1">
@@ -379,10 +571,23 @@ $("#cursor").removeClass("fill");
                <p class="address">Москва, Проспект Ленина, 45, строение 1</p>
                <p class="phone">+7-499-252-48-61</p>
                <p class="mail">soberis@gmail.com</p>
-               <p class="design">Дизайн: Ханеева Лия</p>
+               <div class="korobka">
+               <p class="design">Ханеева Лия</p>
                <p class="adc">HSE ADC</p>
                <p class="year">2021</p>
+               </div>
 
+             </div>
+             <div class="sidebarfon">
+               <div class="toppanel2">
+                 <div class="cross1"></div>
+               </div>
+               <a href="index.html"><p class="sidebarfontext">соберись</p></a>
+               <a href="afisha.html" ><p class="sidebarfontext">события</p></a>
+               <a href="construct.html" ><p class="sidebarfontext">конструктор друга</p></a>
+               <a href="istorii.html" ><p class="sidebarfontext">счастливые истории</p></a>
+               <a href="shop.html" ><p class="sidebarfontext">магазин мерча</p></a>
+               <a href="contacts.html" ><p class="sidebarfontext">как к нам попасть</p></a>
              </div>
              <div id="cursor"></div>
 

@@ -17,7 +17,7 @@
         /* overflow: hidden; */
         cursor: none;
       }
-      body::before{
+      /* body::before{
         content: "";
         position: absolute;
         left: 0;
@@ -29,7 +29,7 @@
         background-size: 100% auto ;
         display: block;
         opacity: .0;
-      }
+      } */
       html{
         position: relative;
         /* height: 100%; */
@@ -42,7 +42,7 @@
         position:relative;
         width:100%;
       }
-      .ratio{
+      .ratio2{
         position:relative;
         padding-bottom: 62.5%;
         background:transparent;
@@ -53,7 +53,7 @@
         padding:0;
         background:transparent;
       }
-      .header{
+      .header2{
         display: block;
         position: absolute;
         /* background: red; */
@@ -69,6 +69,9 @@
         width: 5.7%;
         /* cursor: url('images/cursor.svg'), auto; */
       }
+      .larrow:hover{
+        filter: brightness(1.1);
+      }
       h1{
         position: absolute;
         font-size: 44px;
@@ -78,7 +81,7 @@
         top: 52%;
       }
 
-      .forma{
+      .forma2{
         display: block;
         position: absolute;
         /* background: blue; */
@@ -115,7 +118,7 @@
         padding-left: 3%;
         padding-top: 0.6%;
       }
-      .phone{
+      .telephone{
         position: absolute;
         font-size: 36px;
         font-family: "Steinbeck";
@@ -180,6 +183,9 @@
         left: 38.1%;
         /* cursor: url('images/cursor.svg'), auto; */
       }
+      .submit:hover{
+        filter: brightness(1.1);
+      }
       .popup{
         display: none;
         position: fixed;
@@ -205,6 +211,9 @@
         background-repeat: no-repeat;
         background-size: 100% auto;
         /* cursor: url('images/cursor.svg'), auto; */
+      }
+      .cross:hover{
+        filter: brightness(1.1);
       }
       .dark{
         position: absolute;
@@ -287,21 +296,21 @@ $("#cursor").removeClass("fill");
   </head>
   <body>
     <div class="wrapper">
-      <div class="ratio">
+      <div class="ratio2">
         <div class="content">
 
 
-          <div class="header">
+          <div class="header2">
             <a href="index.html"> <img class="larrow" src="images/larrow1.svg" alt=""></a>
             <!-- <p class="zaya">ЗАЯВКА НА ПОСЕЩЕНИЕ ЦЕНТРА</p> -->
             <h1>ЗАЯВКА НА&nbsp;ПОСЕЩЕНИЕ ЦЕНТРА</h1>
           </div>
-          <div class="forma">
+          <div class="forma2">
             <p class="name">1. имя:</p>
             <div class="form-split">
               <input type="text" name="imya" value="" placeholder="">
             </div>
-            <p class="phone">2. телефон:</p>
+            <p class="telephone">2. телефон:</p>
             <div class="form-split2">
               <input type="tel" name="nomer" value="" placeholder="">
             </div>

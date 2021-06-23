@@ -85,6 +85,9 @@
           text-decoration: none;
           margin-top:2%;
       }
+      .menu-items a:hover{
+        filter: brightness(1.1);
+      }
       .contactsbox{
         position: relative;
         display: block;
@@ -95,7 +98,7 @@
         /* background-color: red;
         opacity: .3; */
       }
-      .text{
+      .text_find{
         position: absolute;
         font-size: 16px;
       }
@@ -280,6 +283,9 @@
         left: 38.1%;
         /* cursor: url('images/cursor.svg'), auto; */
       }
+      .submit:hover{
+        filter: brightness(1.1);
+      }
       .popup{
         display: none;
         position: fixed;
@@ -313,7 +319,9 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% auto;
-
+      }
+      .cross:hover{
+        filter: brightness(1.1);
       }
       .dark{
         position: absolute;
@@ -327,7 +335,7 @@
       }
       .bookbox{
         position: relative;
-        height: 34.4679445%;
+        height: 33.3773959%;
         width: 88.8888889%;
         margin-left:5.5%;
         margin-top: 9.2%;
@@ -335,11 +343,14 @@
       }
       .bookimg{
         position: absolute;
-        height: 100%;
+        height: 89%;
         width: 100%;
-        top: 3.3%;
+        top: 8%;
+        background-image: url('images/sliderbook.png');
+        background-size: 500% 100%;
+        background-position: 0% 0;
       }
-      .green{
+      /* .green{
         position: absolute;
         height: 86%;
         width: 100%;
@@ -380,7 +391,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% auto;
-      }
+      } */
       .larrow{
         position: absolute;
         width: 5.625%;
@@ -393,6 +404,9 @@
         background-repeat: no-repeat;
         background-size: 100% auto;
         /* cursor: url('images/cursor.svg'), auto; */
+      }
+      .larrow:hover{
+        filter: brightness(1.1);
       }
       .rarrow{
         position: absolute;
@@ -407,12 +421,18 @@
         background-size: 100% auto;
         /* cursor: url('images/cursor.svg'), auto; */
       }
+      .rarrow:hover{
+        filter: brightness(1.1);
+      }
       .calameo{
         position: absolute;
         font-size: 18px;
         top: 88%;
         left: 43%;
         text-decoration: none;
+      }
+      .calameo:hover{
+        filter: brightness(1.1);
       }
       .footer{
         display: block;
@@ -421,7 +441,7 @@
         left:0%;
         width:100%;
         height: 4.23000661%;
-        margin-top: 14.4%;
+        margin-top: 18%;
       }
       .address{
         position: absolute;
@@ -501,64 +521,64 @@
 
     <script type="text/javascript">
     $(document).ready(function(){
-      $(".rarrow").click(function(){
-        if ($(".bookimg").hasClass("five")){
-          $(".bookimg").addClass("one");
-          setTimeout(function(){
-            $(".bookimg").removeClass("five");
-        }, 10);
-      } else if ( $(".bookimg").hasClass("two")){
-          $(".bookimg").addClass("three");
-          setTimeout(function(){
-            $(".bookimg").removeClass("two");
-        }, 100);
-      } else if ( $(".bookimg").hasClass("three")){
-        $(".bookimg").addClass("four");
-        setTimeout(function(){
-          $(".bookimg").removeClass("three");
-      }, 100);
-    } else if ( $(".bookimg").hasClass("four")){
-          $(".bookimg").addClass("five");
-          setTimeout(function(){
-            $(".bookimg").removeClass("four");
-        }, 100);
-      } else if ( $(".bookimg").hasClass("one")){
-            $(".bookimg").addClass("two");
-            setTimeout(function(){
-              $(".bookimg").removeClass("one");
-          }, 100);
-        };
-      });
-
-
-        $(".larrow").click(function(){
-          if ($(".bookimg").hasClass("one")){
-            $(".bookimg").addClass("five");
-            setTimeout(function(){
-              $(".bookimg").removeClass("one");
-          }, 10);
-        } else if ( $(".bookimg").hasClass("three")){
-            $(".bookimg").addClass("two");
-            setTimeout(function(){
-              $(".bookimg").removeClass("three");
-          }, 100);
-        } else if ( $(".bookimg").hasClass("four")){
-          $(".bookimg").addClass("three");
-          setTimeout(function(){
-            $(".bookimg").removeClass("four");
-        }, 100);
-      } else if ( $(".bookimg").hasClass("five")){
-            $(".bookimg").addClass("four");
-            setTimeout(function(){
-              $(".bookimg").removeClass("five");
-          }, 100);
-        } else if ( $(".bookimg").hasClass("two")){
-              $(".bookimg").addClass("one");
-              setTimeout(function(){
-                $(".bookimg").removeClass("two");
-            }, 100);
-          };
-        });
+    //   $(".rarrow").click(function(){
+    //     if ($(".bookimg").hasClass("five")){
+    //       $(".bookimg").addClass("one");
+    //       setTimeout(function(){
+    //         $(".bookimg").removeClass("five");
+    //     }, 10);
+    //   } else if ( $(".bookimg").hasClass("two")){
+    //       $(".bookimg").addClass("three");
+    //       setTimeout(function(){
+    //         $(".bookimg").removeClass("two");
+    //     }, 100);
+    //   } else if ( $(".bookimg").hasClass("three")){
+    //     $(".bookimg").addClass("four");
+    //     setTimeout(function(){
+    //       $(".bookimg").removeClass("three");
+    //   }, 100);
+    // } else if ( $(".bookimg").hasClass("four")){
+    //       $(".bookimg").addClass("five");
+    //       setTimeout(function(){
+    //         $(".bookimg").removeClass("four");
+    //     }, 100);
+    //   } else if ( $(".bookimg").hasClass("one")){
+    //         $(".bookimg").addClass("two");
+    //         setTimeout(function(){
+    //           $(".bookimg").removeClass("one");
+    //       }, 100);
+    //     };
+    //   });
+    //
+    //
+    //     $(".larrow").click(function(){
+    //       if ($(".bookimg").hasClass("one")){
+    //         $(".bookimg").addClass("five");
+    //         setTimeout(function(){
+    //           $(".bookimg").removeClass("one");
+    //       }, 10);
+    //     } else if ( $(".bookimg").hasClass("three")){
+    //         $(".bookimg").addClass("two");
+    //         setTimeout(function(){
+    //           $(".bookimg").removeClass("three");
+    //       }, 100);
+    //     } else if ( $(".bookimg").hasClass("four")){
+    //       $(".bookimg").addClass("three");
+    //       setTimeout(function(){
+    //         $(".bookimg").removeClass("four");
+    //     }, 100);
+    //   } else if ( $(".bookimg").hasClass("five")){
+    //         $(".bookimg").addClass("four");
+    //         setTimeout(function(){
+    //           $(".bookimg").removeClass("five");
+    //       }, 100);
+    //     } else if ( $(".bookimg").hasClass("two")){
+    //           $(".bookimg").addClass("one");
+    //           setTimeout(function(){
+    //             $(".bookimg").removeClass("two");
+    //         }, 100);
+    //       };
+    //     });
 
         $(".submit").click(function(){
           if ($('input[name="imya"]').val() && $('input[name="nomer"]').val() && $('input[name="pochta"]').val()){
@@ -609,7 +629,7 @@
              </div>
           </div>
           <div class="contactsbox">
-            <p class="text">Вы&nbsp;можете найти нас по&nbsp;адресу:</p>
+            <p class="text_find">Вы&nbsp;можете найти нас по&nbsp;адресу:</p>
             <p class="bigtext">МОСКВА, ПРОСПЕКТ ЛЕНИНА, 45, СТРОЕНИЕ&nbsp;1</p>
             <p class="bigtext2">ПН&nbsp;&mdash; ВС, 10:00&nbsp;&mdash; 19:00</p>
             <p class="text2">Напишите нам:</p>
@@ -639,8 +659,8 @@
             </div>
             <div class="bookbox">
               <h1>О&nbsp;ПРОСТРАНСТВЕ</h1>
-              <div class="green"></div>
-              <div class="bookimg one"></div>
+              <!-- <div class="green"></div> -->
+              <div class="bookimg"></div>
               <div class="larrow"></div>
               <div class="rarrow"></div>
               <a href="https://en.calameo.com/read/006654385ce30bac0f38f" class="calameo">читать всю книгу</a>

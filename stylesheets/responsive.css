@@ -1,0 +1,1309 @@
+/* index */
+@media only screen and (min-width: 1626px) and (max-width: 1920px) {
+ div .menu-items a{
+   font-size: 24px;
+ }
+ div .welcome{
+   font-size: 50px;
+ }
+ div .esli{
+   font-size: 50px;
+ }
+ div .text{
+   font-size: 32px;
+   width: 92%;
+ }
+ div .link1 a{
+   font-size: 30px;
+ }
+ div .link2 a{
+   font-size: 30px;
+ }
+ div .link3 a{
+   font-size: 30px;
+ }
+ div .address{
+   font-size: 22px;
+ }
+  div .phone{
+   font-size: 22px;
+ }
+  div .mail{
+   font-size: 22px;
+ }
+  div .design{
+   font-size: 22px;
+ }
+  div .adc{
+   font-size: 22px;
+ }
+  div .year{
+   font-size: 22px;
+ }
+ /* div .korobka{right: 1.2%; width: 19%;} */
+}
+@media only screen and (min-width: 1431px) and (max-width: 1625px) {
+  /* div .korobka{right: 0%; width: 19%;} */
+
+ }
+ @media only screen and (min-width: 1366px) and (max-width: 1430px) {
+  div .welcome{
+    font-size: 42px;
+  }
+  div .esli{
+    font-size: 42px;
+  }
+  div .text{
+    font-size: 26px;
+    width: 90.7990315%;
+  }
+  div .link1 a{
+    font-size: 26px;
+  }
+  div .link2 a{
+    font-size: 26px;
+  }
+  div .link3 a{
+    font-size: 26px;
+  }
+ }
+ @media only screen and (min-width: 1327px) and (max-width: 1365px) {
+  div .welcome{
+    font-size: 40px;
+  }
+  div .esli{
+    font-size: 40px;
+  }
+  div .text{
+    font-size: 26px;
+    width: 90.7990315%;
+  }
+  div .link1 a{
+    font-size: 26px;
+  }
+  div .link2 a{
+    font-size: 26px;
+  }
+  div .link3 a{
+    font-size: 26px;
+  }
+ }
+ @media only screen and (min-width: 1301px) and (max-width: 1326px) {
+  div .welcome{
+    font-size: 40px;
+  }
+  div .esli{
+    font-size: 40px;
+  }
+  div .text{
+    font-size: 24px;
+    width: 90.7990315%;
+  }
+  div .link1 a{
+    font-size: 26px;
+  }
+  div .link2 a{
+    font-size: 26px;
+  }
+  div .link3 a{
+    font-size: 26px;
+  }
+ }
+ @media only screen and (min-width: 1281px) and (max-width: 1300px) {
+  div .welcome{
+    font-size: 39px;
+  }
+  div .esli{
+    font-size: 39px;
+  }
+  div .text{
+    font-size: 24px;
+    width: 90.7990315%;
+  }
+  div .link1 a{
+    font-size: 26px;
+  }
+  div .link2 a{
+    font-size: 26px;
+  }
+  div .link3 a{
+    font-size: 26px;
+  }
+  div .address{
+    font-size: 16px;
+  }
+   div .phone{
+    font-size: 16px;
+  }
+   div .mail{
+    font-size: 16px;
+  }
+   div .design{
+    font-size: 16px;
+  }
+   div .adc{
+    font-size: 16px;
+  }
+   div .year{
+    font-size: 16px;
+  }
+ }
+ @media only screen and (min-width: 1269px) and (max-width: 1280px) {
+  div .welcome{
+    font-size: 39px;
+  }
+  div .esli{
+    font-size: 39px;
+  }
+  div .text{
+    font-size: 24px;
+    width: 90.7990315%;
+  }
+  div .link1 a{
+    font-size: 26px;
+  }
+  div .link2 a{
+    font-size: 26px;
+  }
+  div .link3 a{
+    font-size: 26px;
+  }
+ }
+ @media only screen and (min-width: 1236px) and (max-width: 1268px) {
+  div .welcome{
+    font-size: 38px;
+  }
+  div .esli{
+    font-size: 38px;
+  }
+  div .text{
+    font-size: 24px;
+    width: 90.7990315%;
+  }
+  div .link1 a{
+    font-size: 26px;
+  }
+  div .link2 a{
+    font-size: 26px;
+  }
+  div .link3 a{
+    font-size: 26px;
+  }
+ }
+ @media only screen and (min-width: 1171px) and (max-width: 1235px) {
+  div .welcome{
+    font-size: 36px;
+  }
+  div .esli{
+    font-size: 36px;
+  }
+  div .text{
+    font-size: 22px;
+    width: 90.7990315%;
+  }
+  div .link1 a{
+    font-size: 22px;
+  }
+  div .link2 a{
+    font-size: 22px;
+  }
+  div .link3 a{
+    font-size: 22px;
+  }
+ }
+ @media only screen and (min-width: 1139px) and (max-width: 1170px) {
+  div .welcome{
+    font-size: 35px;
+  }
+  div .esli{
+    font-size: 35px;
+  }
+  div .text{
+    font-size: 22px;
+    width: 90.7990315%;
+  }
+  div .link1 a{
+    font-size: 24px;
+  }
+  div .link2 a{
+    font-size: 24px;
+  }
+  div .link3 a{
+    font-size: 24px;
+  }
+ }
+ @media only screen and (min-width: 1074px) and (max-width: 1138px) {
+   div .menu-items a{
+     font-size: 16px;
+   }
+  div .welcome{
+    font-size: 33px;
+  }
+  div .esli{
+    font-size: 33px;
+  }
+  div .text{
+    font-size: 21px;
+    width: 90.7990315%;
+  }
+  div .link1{
+    margin-top: 28%;
+  }
+  div .link1 a{
+    font-size: 23px;
+  }
+  div .link2{
+    margin-top: 20.3%;
+  }
+  div .link2 a{
+    font-size: 23px;
+  }
+  div .link3{
+    margin-top: 35.3%;
+  }
+  div .link3 a{
+    font-size: 23px;
+  }
+  div .address, div .phone, div .mail, div .design, div .adc, div .year{
+    font-size: 14px;
+  }
+ }
+ @media only screen and (min-width: 1008px) and (max-width: 1073px) {
+   div .menu-items a{
+     font-size: 16px;
+   }
+  div .welcome{
+    font-size: 31px;
+  }
+  div .esli{
+    font-size: 31px;
+  }
+  div .text{
+    font-size: 19px;
+    width: 90.7990315%;
+  }
+  div .link1{
+    margin-top: 28%;
+  }
+  div .link1 a{
+    font-size: 21px;
+  }
+  div .link2{
+    margin-top: 20.3%;
+  }
+  div .link2 a{
+    font-size: 21px;
+  }
+  div .link3{
+    margin-top: 35.3%;
+  }
+  div .link3 a{
+    font-size: 21px;
+  }
+  div .address, div .phone, div .mail, div .design, div .adc, div .year{
+    font-size: 14px;
+  }
+ }
+ @media only screen and (min-width: 919px) and (max-width: 1007px) {
+   div .menu-items a{
+     font-size: 14px;
+   }
+  div .welcome{
+    font-size: 28px;
+  }
+  div .esli{
+    font-size: 28px;
+  }
+  div .text{
+    font-size: 18px;
+    width: 90.7990315%;
+  }
+  div .link1{
+    margin-top: 28%;
+  }
+  div .link1 a{
+    font-size: 18px;
+  }
+  div .link2{
+    margin-top: 20.3%;
+  }
+  div .link2 a{
+    font-size: 18px;
+  }
+  div .link3{
+    margin-top: 35.3%;
+  }
+  div .link3 a{
+    font-size: 18px;
+  }
+  div .address, div .phone, div .mail, div .design, div .adc, div .year{
+    font-size: 14px;
+  }
+ }
+ @media only screen and (min-width: 817px) and (max-width: 918px) {
+   div .menu-items a{
+     font-size: 14px;
+   }
+  div .welcome{
+    font-size: 25px;
+  }
+  div .esli{
+    font-size: 25px;
+  }
+  div .text{
+    font-size: 16px;
+    width: 90.7990315%;
+  }
+  div .link1{
+    margin-top: 28%;
+  }
+  div .link1 a{
+    font-size: 18px;
+  }
+  div .link2{
+    margin-top: 20.3%;
+  }
+  div .link2 a{
+    font-size: 18px;
+  }
+  div .link3{
+    margin-top: 35.3%;
+  }
+  div .link3 a{
+    font-size: 18px;
+  }
+  div .address, div .phone, div .mail, div .design, div .adc, div .year{
+    font-size: 12px;
+  }
+ }
+ @media only screen and (min-width: 769px) and (max-width: 816px) {
+   div .menu-items a{
+     font-size: 12px;
+   }
+  div .welcome{
+    font-size: 23px;
+    width: 100%;
+  }
+  div .esli{
+    font-size: 23px;
+  }
+  div .text{
+    font-size: 14px;
+    width: 90.7990315%;
+  }
+  div .link1{
+    margin-top: 28%;
+  }
+  div .link1 a{
+    font-size: 16px;
+  }
+  div .link2{
+    margin-top: 20.3%;
+  }
+  div .link2 a{
+    font-size: 16px;
+  }
+  div .link3{
+    margin-top: 35.3%;
+  }
+  div .link3 a{
+    font-size: 16px;
+  }
+  div .address, div .phone, div .mail, div .design, div .adc, div .year{
+    font-size: 12px;
+  }
+ }
+ @media only screen and (min-width: 756px) and (max-width: 768px) {
+   div .ratio1{ position:relative; padding-bottom: 458.333333%; background:transparent;}
+   div .header{ display: none;}
+   div .toppanel{ display: block;}
+       div.hello{ height: 6.96022727%; width:92.96875%; left: 3.5%;
+       }
+      div.photo{ position: absolute; top:10%; left:5%; width:90%; height: 11.3920455%;
+      }
+      div.forma1{ position: absolute; top:21%; left:5.3%; width:88.8888889%; height: 7%;
+      }
+      div .button1{   margin-top: 7%;
+      }
+      div .boxes{
+        display: block; position: absolute; top:30%; left:5.5%; width:88.8888889%; height: 66.3068182%;
+      }
+      div .box1{
+        left: 0%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;
+      }
+      div .box2{
+        left: 0%; top: 33%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;
+      }
+      div .box3{ left: 0%; top: 66%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;
+      }
+      div .footer{ display: block; position: absolute; background: #F0F0F0; left:0%; width:100%; height: 3.63636364%; top:96.5%;
+      }
+      div .welcome{ font-size: 24px; width: 100%;
+      }
+      div .esli{ font-size: 24px;
+      }
+      div .text{ font-size: 46px; width: 90.7990315%;
+      }
+      div .link1{ margin-top: 28%;
+      }
+      div .link1 a{ font-size: 46px;
+      }
+      div .link2{ margin-top: 20.3%;
+      }
+      div .link2 a{ font-size: 46px;
+      }
+      div .link3{ margin-top: 35.3%;
+      }
+      div .link3 a{ font-size: 46px;
+      }
+      div .address, div .phone, div .mail, div .design, div .adc, div .year{font-size: 14px;}
+      div .button1{display: none;}
+      div .button1_2{display: block;}
+     }
+     @media only screen and (min-width: 709px) and (max-width: 755px) {
+       div .ratio1{ position:relative; padding-bottom: 458.333333%; background:transparent;}
+       div .header{ display: none;
+          }
+       div .toppanel{ display: block;
+           }
+           div.hello{ height: 6.96022727%; width:92.96875%; left: 3.5%;
+           }
+          div.photo{ position: absolute; top:10%; left:5%; width:90%; height: 11.3920455%;
+          }
+          div.forma1{ position: absolute; top:21%; left:5.3%; width:88.8888889%; height: 7%;
+          }
+          div .button1{   margin-top: 7%;
+          }
+          div .boxes{
+            display: block; position: absolute; top:30%; left:5.5%; width:88.8888889%; height: 66.3068182%;
+          }
+          div .box1{
+            left: 0%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;
+          }
+          div .box2{
+            left: 0%; top: 33%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;
+          }
+          div .box3{ left: 0%; top: 66%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;
+          }
+          div .footer{ display: block; position: absolute; background: #F0F0F0; left:0%; width:100%; height: 3.63636364%; top:96.5%;
+          }
+          div .welcome{ font-size: 22.5px; width: 100%;
+          }
+          div .esli{ font-size: 22.5px;
+          }
+          div .text{ font-size: 43px; width: 90.7990315%;
+          }
+          div .link1{ margin-top: 28%;
+          }
+          div .link1 a{ font-size: 42px;
+          }
+          div .link2{ margin-top: 20.3%;
+          }
+          div .link2 a{ font-size: 42px;
+          }
+          div .link3{ margin-top: 35.3%;
+          }
+          div .link3 a{ font-size: 42px;
+          }
+          div .address, div .phone, div .mail, div .design, div .adc, div .year{
+            font-size: 14px;
+          }
+          div .button1{display: none;}
+          div .button1_2{display: block;}
+          div .korobka{width: 18%;}
+         }
+         @media only screen and (min-width: 676px) and (max-width: 708px) {
+         div .ratio1{ position:relative; padding-bottom: 458.333333%; background:transparent;}
+         div .header{ display: none;
+           }
+         div .toppanel{ display: block;
+            }
+         div.hello{ height: 6.96022727%; width:92.96875%; left: 3.5%;}
+         div.photo{ position: absolute; top:10%; left:5%; width:90%; height: 11.3920455%;}
+         div.forma1{ position: absolute; top:21%; left:5.3%; width:88.8888889%; height: 7%;}
+         div .button1{   margin-top: 7%;}
+         div .boxes{display: block; position: absolute; top:30%; left:5.5%; width:88.8888889%; height: 66.3068182%;}
+         div .box1{left: 0%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .box2{left: 0%; top: 33%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .box3{ left: 0%; top: 66%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .footer{ display: block; position: absolute; background: #F0F0F0; left:0%; width:100%; height: 3.63636364%; top:96.5%;}
+         div .welcome{ font-size: 21px; width: 100%;}
+         div .esli{ font-size: 21px;}
+         div .text{ font-size: 41px; width: 90.7990315%;}
+         div .link1{ margin-top: 28%;}
+         div .link1 a{ font-size: 42px;}
+         div .link2{ margin-top: 20.3%;}
+         div .link2 a{ font-size: 42px;}
+         div .link3{ margin-top: 35.3%;}
+         div .link3 a{ font-size: 42px;}
+         div .address, div .phone, div .mail, div .design, div .adc, div .year{font-size: 14px;}
+         div .button1{display: none;}
+         div .button1_2{display: block;}
+         div .korobka{width: 18%;}
+         }
+         @media only screen and (min-width: 630px) and (max-width: 675px) {
+         div .ratio1{ position:relative; padding-bottom: 458.333333%; background:transparent;}
+         div .header{ display: none;
+           }
+         div .toppanel{ display: block;}
+         div.hello{ height: 6.96022727%; width:92.96875%; left: 3.5%;}
+         div.photo{ position: absolute; top:10%; left:5%; width:90%; height: 11.3920455%;}
+         div.forma1{ position: absolute; top:21%; left:5.3%; width:88.8888889%; height: 7%;}
+         div .button1{   margin-top: 7%;}
+         div .boxes{display: block; position: absolute; top:30%; left:5.5%; width:88.8888889%; height: 66.3068182%;}
+         div .box1{left: 0%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .box2{left: 0%; top: 33%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .box3{ left: 0%; top: 66%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .footer{ display: block; position: absolute; background: #F0F0F0; left:0%; width:100%; height: 3.63636364%; top:96.5%;}
+         div .welcome{ font-size: 20px; width: 100%;}
+         div .esli{ font-size: 20px;}
+         div .text{ font-size: 38px; width: 90.7990315%;}
+         div .link1{ margin-top: 28%;}
+         div .link1 a{ font-size: 40px;}
+         div .link2{ margin-top: 20.3%;}
+         div .link2 a{ font-size: 40px;}
+         div .link3{ margin-top: 35.3%;}
+         div .link3 a{ font-size: 40px;}
+         div .address, div .phone, div .mail, div .design, div .adc, div .year{font-size: 14px;}
+         div .button1{display: none;}
+         div .button1_2{display: block;}
+         div .korobka{width: 18%;}
+         }
+         @media only screen and (min-width: 560px) and (max-width: 629px) {
+         div .ratio1{ position:relative; padding-bottom: 458.333333%; background:transparent;}
+         div .header{ display: none;
+           }
+         div .toppanel{ display: block;
+            }
+         div.hello{ height: 6.96022727%; width:92.96875%; left: 3.5%;}
+         div.photo{ position: absolute; top:10%; left:5%; width:90%; height: 11.3920455%;}
+         div.forma1{ position: absolute; top:21%; left:5.3%; width:88.8888889%; height: 7%;}
+         div .button1{   margin-top: 7%;}
+         div .boxes{display: block; position: absolute; top:30%; left:5.5%; width:88.8888889%; height: 66.3068182%;}
+         div .box1{left: 0%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .box2{left: 0%; top: 33%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .box3{ left: 0%; top: 66%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .footer{ display: block; position: absolute; background: #F0F0F0; left:0%; width:100%; height: 3.63636364%; top:96.5%;}
+         div .welcome{ font-size: 18px; width: 100%;}
+         div .esli{ font-size: 18px;}
+         div .text{ font-size: 34px; width: 90.7990315%;}
+         div .link1{ margin-top: 28%;}
+         div .link1 a{ font-size: 38px;}
+         div .link2{ margin-top: 20.3%;}
+         div .link2 a{ font-size: 38px;}
+         div .link3{ margin-top: 35.3%;}
+         div .link3 a{ font-size: 38px;}
+         div .address, div .phone, div .mail, div .design, div .adc, div .year{font-size: 14px;}
+         div .button1{display: none;}
+         div .button1_2{display: block;}
+         div .korobka{width: 20%;}
+         }
+         @media only screen and (min-width: 536px) and (max-width: 559px) {
+         div .ratio1{ position:relative; padding-bottom: 458.333333%; background:transparent;}
+         div .header{ display: none;}
+         div .toppanel{ display: block;}
+         div.hello{ height: 6.96022727%; width:92.96875%; left: 3.5%;}
+         div.photo{ position: absolute; top:10%; left:5%; width:90%; height: 11.3920455%;}
+         div.forma1{ position: absolute; top:21%; left:5.3%; width:88.8888889%; height: 7%;}
+         div .button1{   margin-top: 7%;}
+         div .boxes{display: block; position: absolute; top:30%; left:5.5%; width:88.8888889%; height: 66.3068182%;}
+         div .box1{left: 0%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .box2{left: 0%; top: 33%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .box3{ left: 0%; top: 66%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .footer{ display: block; position: absolute; background: #F0F0F0; left:0%; width:100%; height: 3.63636364%; top:96.5%;}
+         div .welcome{ font-size: 17px; width: 100%;}
+         div .esli{ font-size: 17px;}
+         div .text{ font-size: 30px; width: 90.7990315%;}
+         div .link1{ margin-top: 28%;}
+         div .link1 a{ font-size: 32px;}
+         div .link2{ margin-top: 20.3%;}
+         div .link2 a{ font-size: 32px;}
+         div .link3{ margin-top: 35.3%;}
+         div .link3 a{ font-size: 32px;}
+         div .address, div .phone, div .mail, div .design, div .adc, div .year{font-size: 12px;}
+         div .button1{display: none;}
+         div .button1_2{display: block; top: 55%;}
+         div .korobka{width: 20%;}
+         }
+         @media only screen and (min-width: 501px) and (max-width: 536px) {
+         div .ratio1{ position:relative; padding-bottom: 458.333333%; background:transparent;}
+         div .header{ display: none;}
+         div .toppanel{ display: block;}
+         div.hello{ height: 6.96022727%; width:92.96875%; left: 3.5%;}
+         div.photo{ position: absolute; top:10%; left:5%; width:90%; height: 11.3920455%;}
+         div.forma1{ position: absolute; top:21%; left:5.3%; width:88.8888889%; height: 7%;}
+         div .button1{   margin-top: 7%;}
+         div .boxes{display: block; position: absolute; top:30%; left:5.5%; width:88.8888889%; height: 66.3068182%;}
+         div .box1{left: 0%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .box2{left: 0%; top: 33%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .box3{ left: 0%; top: 66%; position: absolute; width: 100%; height: 30.6769494%; background-color: #D0DDC6; overflow: hidden;}
+         div .footer{ display: block; position: absolute; background: #F0F0F0; left:0%; width:100%; height: 3.63636364%; top:96.5%;}
+         div .welcome{ font-size: 15px; width: 100%;}
+         div .esli{ font-size: 15px;}
+         div .text{ font-size: 30px; width: 90.7990315%;}
+         div .link1{ margin-top: 28%;}
+         div .link1 a{ font-size: 32px;}
+         div .link2{ margin-top: 20.3%;}
+         div .link2 a{ font-size: 32px;}
+         div .link3{ margin-top: 35.3%;}
+         div .link3 a{ font-size: 32px;}
+         div .address, div .phone, div .mail, div .design, div .adc, div .year{font-size: 12px;}
+         div .button1{display: none;}
+         div .button1_2{display: block; top: 55%;}
+         div .korobka{width: 20%;}
+         }
+         @media only screen and (min-width: 495px) and (max-width: 500px) {
+         div .ratio1{ position:relative; padding-bottom: 537.066667%; background:transparent;}
+         div .header{ display: none;
+           }
+         div .toppanel{ display: block; top: -0.2%;}
+         div.hello{ height: 6.96022727%; width:90%; left: 3.5%;}
+         div.photo{ position: absolute; top:10%; left:5%; width:90%; height: 12.2641509%;}
+         div .sl{width: 100%;left: 0%;}
+         div .forma1{ position: absolute; top:22.3%; left:5%; width:90%; height: 7%;}
+         div .esli{left:14%;}
+         div .boxes{display: block; position: absolute; top:33%; left:5.5%; width:88.8888889%; height: 55.0645482%;}
+         div .box1{left: 0%; position: absolute; width: 100%; height: 29.5%; background-color: #D0DDC6; overflow: hidden;}
+         div .box2{left: 0%; top: 34%; position: absolute; width: 100%; height: 29.5%; background-color: #D0DDC6; overflow: hidden;}
+         div .box3{ left: 0%; top: 68%; position: absolute; width: 100%; height: 29.5%; background-color: #D0DDC6; overflow: hidden;}
+         div .footer{ display: block; position: absolute; background: #F0F0F0; left:0%; width:100%; height: 10.5%; top:89.8%;}
+         div .welcome{ font-size: 18px; width: 100%;}
+         div .esli{ font-size: 20px; width: 70%;text-align: center;}
+         div .text{ font-size: 29px; width: 90.7990315%;}
+         div .link1{ margin-top: 26%;}
+         div .link1 a{ font-size: 30px;}
+         div .link2{ margin-top: 18.3%;}
+         div .link2 a{ font-size: 30px;}
+         div .link3{ margin-top: 33.3%;}
+         div .link3 a{ font-size: 30px;}
+         div .address, div .phone, div .mail, div .design, div .adc, div .year{font-size: 16px;}
+         div .address{top: 18%;}
+         div .phone{top: 32%;}
+         div .mail{top: 44%;}
+         div .design{top: 56%;left:5.5%;}
+         div .adc{top: 68%;left:5.5%;}
+         div .year{top: 80%;left:5.5%;}
+         div .button1{display: none;}
+         div .button1_2{display: block; left: 25.5%; width: 45%;top: 67%;}
+         div .larrow1{display: none;}
+         div .rarrow1{display: none;}
+         div .korobka{width: 50%; left: 3%;}
+         }
+         @media only screen and (min-width: 440px) and (max-width: 494px) {
+         div .ratio1{ position:relative; padding-bottom: 537.066667%; background:transparent;}
+         div .header{ display: none;
+           }
+         div .toppanel{ display: block;}
+         div.hello{ height: 6.96022727%; width:90%; left: 3.5%;}
+         div.photo{ position: absolute; top:10%; left:5%; width:90%; height: 12.2641509%;}
+         div .sl{width: 100%;left: 0%;}
+         div .forma1{ position: absolute; top:22.3%; left:5%; width:90%; height: 7%;}
+         div .esli{left:14%;}
+         div .boxes{display: block; position: absolute; top:33%; left:5.5%; width:88.8888889%; height: 55.0645482%;}
+         div .box1{left: 0%; position: absolute; width: 100%; height: 29.5%; background-color: #D0DDC6; overflow: hidden;}
+         div .box2{left: 0%; top: 34%; position: absolute; width: 100%; height: 29.5%; background-color: #D0DDC6; overflow: hidden;}
+         div .box3{ left: 0%; top: 68%; position: absolute; width: 100%; height: 29.5%; background-color: #D0DDC6; overflow: hidden;}
+         div .footer{ display: block; position: absolute; background: #F0F0F0; left:0%; width:100%; height: 10.5%; top:89.8%;}
+         div .welcome{ font-size: 16px; width: 100%;}
+         div .esli{ font-size: 16px; width: 70%;text-align: center;}
+         div .text{ font-size: 24px; width: 90.7990315%;}
+         div .link1{ margin-top: 26%;}
+         div .link1 a{ font-size: 26px;}
+         div .link2{ margin-top: 18.3%;}
+         div .link2 a{ font-size: 26px;}
+         div .link3{ margin-top: 33.3%;}
+         div .link3 a{ font-size: 26px;}
+         div .address, div .phone, div .mail, div .design, div .adc, div .year{font-size: 16px;}
+         div .address{top: 18%;}
+         div .phone{top: 32%;}
+         div .mail{top: 44%;}
+         div .design{top: 56%;left:5.5%;}
+         div .adc{top: 68%;left:5.5%;}
+         div .year{top: 80%;left:5.5%;}
+         div .button1{display: none;}
+         div .button1_2{display: block; left: 25.5%; width: 45%;top: 67%;}
+         div .larrow1{display: none;}
+         div .rarrow1{display: none;}
+         div .korobka{width: 50%; left: 3%;}
+         }
+         @media only screen and (min-width: 376px) and (max-width: 439px) {
+         div .ratio1{ position:relative; padding-bottom: 537.066667%; background:transparent;}
+         div .header{ display: none;
+           }
+         div .toppanel{ display: block;}
+         div.hello{ height: 6.96022727%; width:90%; left: 3.5%;}
+         div.photo{ position: absolute; top:11%; left:5%; width:90%; height: 12.2641509%;}
+         div .sl{width: 100%;left: 0%;}
+         div .forma1{ position: absolute; top:22%; left:5%; width:90%; height: 7%;}
+         div .esli{left:14%;}
+         div .boxes{display: block; position: absolute; top:33%; left:5.5%; width:88.8888889%; height: 55.0645482%;}
+         div .box1{left: 0%; position: absolute; width: 100%; height: 29.5%; background-color: #D0DDC6; overflow: hidden;}
+         div .box2{left: 0%; top: 32%; position: absolute; width: 100%; height: 29.5%; background-color: #D0DDC6; overflow: hidden;}
+         div .box3{ left: 0%; top: 66%; position: absolute; width: 100%; height: 29.5%; background-color: #D0DDC6; overflow: hidden;}
+         div .footer{ display: block; position: absolute; background: #F0F0F0; left:0%; width:100%; height: 10.5%; top:89.8%;}
+         div .welcome{ font-size: 14px; width: 100%;}
+         div .esli{ font-size: 14px; width: 70%;text-align: center; top: 43%;}
+         div .text{ font-size: 22px; width: 90.7990315%;}
+         div .link1{ margin-top: 22%;}
+         div .link1 a{ font-size: 24px;}
+         div .link2{ margin-top: 16.3%;}
+         div .link2 a{ font-size: 24px;}
+         div .link3{ margin-top: 31.3%;}
+         div .link3 a{ font-size: 24px;}
+         div .address, div .phone, div .mail, div .design, div .adc, div .year{font-size: 12px;}
+         div .address{top: 18%;}
+         div .phone{top: 32%;}
+         div .mail{top: 44%;}
+         div .design{top: 56%;left:5.5%;}
+         div .adc{top: 68%;left:5.5%;}
+         div .year{top: 80%;left:5.5%;}
+         div .button1{display: none;}
+         div .button1_2{display: block; left: 25.5%; width: 45%;top: 85%;}
+         div .larrow1{display: none;}
+         div .rarrow1{display: none;}
+         div .korobka{width: 50%; left: 3%;}
+         }
+         @media only screen and (min-width: 320px) and (max-width: 375px) {
+         div .ratio1{ position:relative; padding-bottom: 537.066667%; background:transparent;}
+         div .header{ display: none;
+           }
+         div .toppanel{ display: block;}
+         div.hello{ height: 6.96022727%; width:90%; left: 3.5%;}
+         div.photo{ position: absolute; top:11%; left:5%; width:90%; height: 12.2641509%;}
+         div .sl{width: 100%;left: 0%;}
+         div .forma1{ position: absolute; top:22%; left:5%; width:90%; height: 7%;}
+         div .esli{left:14%;}
+         div .boxes{display: block; position: absolute; top:33%; left:5.5%; width:88.8888889%; height: 55.0645482%;}
+         div .box1{left: 0%; position: absolute; width: 100%; height: 29.5%; background-color: #D0DDC6; overflow: hidden;}
+         div .box2{left: 0%; top: 32%; position: absolute; width: 100%; height: 29.5%; background-color: #D0DDC6; overflow: hidden;}
+         div .box3{ left: 0%; top: 66%; position: absolute; width: 100%; height: 29.5%; background-color: #D0DDC6; overflow: hidden;}
+         div .footer{ display: block; position: absolute; background: #F0F0F0; left:0%; width:100%; height: 10.5%; top:89.8%;}
+         div .welcome{ font-size: 13.2px; width: 100%;}
+         div .esli{ font-size: 13.2px; width: 70%;text-align: center; top: 43%;}
+         div .text{ font-size: 18px; width: 90.7990315%;}
+         div .link1{ margin-top: 20%;}
+         div .link1 a{ font-size: 20px;}
+         div .link2{ margin-top: 16.3%;}
+         div .link2 a{ font-size: 20px;}
+         div .link3{ margin-top: 31.3%;}
+         div .link3 a{ font-size: 20px;}
+         div .address, div .phone, div .mail, div .design, div .adc, div .year{font-size: 12px;}
+         div .address{top: 18%;}
+         div .phone{top: 32%;}
+         div .mail{top: 44%;}
+         div .design{top: 56%;left:5.5%;}
+         div .adc{top: 68%;left:5.5%;}
+         div .year{top: 80%;left:5.5%;}
+         div .button1{display: none;}
+         div .button1_2{display: block; left: 25.5%; width: 45%;top: 85%;}
+         div .larrow1{display: none;}
+         div .rarrow1{display: none;}
+         div .korobka{width: 50%; left: 3%;}
+         }
+
+
+/* forma */
+@media only screen and (min-width: 1441px) and (max-width: 1680px) {
+  body {height: 100%;}
+  .header .larrow {width: 7%;}
+  .header h1{font-size: 50px;}
+  div .forma2{top: 28%;}
+  div .name{font-size: 46px;left: 23%;}
+  div .telephone{font-size: 46px;left: 23%;top: 24%;}
+  div .email{font-size: 46px;left: 23%;top: 46.5%;}
+  div .form-split{width: 52%; height: 12%;left: 23%;}
+  div .form-split2{width: 52%; height: 12%;left: 23%; top: 31%;}
+  div .form-split3{width: 52%; height: 12%;left: 23%;top: 54.2%;}
+  div .form-split input{font-size:36px;}
+  div .form-split2 input{font-size:36px;}
+  div .form-split3 input{font-size:36px;}
+  div .submit{top: 76%;left: 35.8%;}
+}
+@media only screen and (min-width: 1090px) and (max-width: 1440px) {
+
+}
+@media only screen and (min-width: 1025px) and (max-width: 1089px) {
+  body {height: 100%;}
+  .header .larrow {width: 7%;}
+  .header h1{font-size: 50px;}
+  div .forma2{top: 28%;}
+  div .name{font-size: 32px;left: 23%;}
+  div .telephone{font-size: 32px;left: 23%;top: 24%;}
+  div .email{font-size: 32px;left: 23%;top: 46.5%;}
+  div .form-split{width: 52%; height: 12%;left: 23%;}
+  div .form-split2{width: 52%; height: 12%;left: 23%; top: 31%;}
+  div .form-split3{width: 52%; height: 12%;left: 23%;top: 54.2%;}
+  div .form-split input{font-size:26px;border: 2px solid #EC622B;}
+  div .form-split2 input{font-size:26px;border: 2px solid #EC622B;}
+  div .form-split3 input{font-size:26px;border: 2px solid #EC622B;}
+  div .submit{top: 76%;left: 35.8%;}
+}
+@media only screen and (min-width: 860px) and (max-width: 1024px) {
+  body {height: 100%;}
+  .header .larrow {width: 7%;}
+  .header h1{font-size: 50px;}
+  div .forma2{top: 28%;}
+  div .name{font-size: 30px;left: 23%;}
+  div .telephone{font-size: 30px;left: 23%;top: 24%;}
+  div .email{font-size: 30px;left: 23%;top: 46.5%;}
+  div .form-split{width: 52%; height: 12%;left: 23%;}
+  div .form-split2{width: 52%; height: 12%;left: 23%; top: 31%;}
+  div .form-split3{width: 52%; height: 12%;left: 23%;top: 54.2%;}
+  div .form-split input{font-size:24px;border: 2px solid #EC622B;}
+  div .form-split2 input{font-size:24px;border: 2px solid #EC622B;}
+  div .form-split3 input{font-size:24px;border: 2px solid #EC622B;}
+  div .submit{top: 76%;left: 35.8%;}
+}
+@media only screen and (min-width: 769px) and (max-width: 859px) {
+  body {height: 100%;}
+  .header .larrow {width: 7%;}
+  .header h1{font-size: 50px;}
+  div .forma2{top: 28%;}
+  div .name{font-size: 28px;left: 23%;}
+  div .telephone{font-size: 28px;left: 23%;top: 26%;}
+  div .email{font-size: 28px;left: 23%;top: 50.5%;}
+  div .form-split{width: 52%; height: 12%;left: 23%;}
+  div .form-split2{width: 52%; height: 12%;left: 23%; top: 34%;}
+  div .form-split3{width: 52%; height: 12%;left: 23%;top: 58.2%;}
+  div .form-split input{font-size:24px;border: 2px solid #EC622B;}
+  div .form-split2 input{font-size:24px;border: 2px solid #EC622B;}
+  div .form-split3 input{font-size:24px;border: 2px solid #EC622B;}
+  div .submit{top: 80%;left: 35.8%;}
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  body {height: 100%;}
+  div .ratio2{padding-bottom: 133.333333%;}
+  .header2 .larrow {width: 7%;}
+  div .forma2{top: 23%; height: 75.2929688%;}
+  div .name{font-size: 26px;left: 23%;}
+  div .telephone{font-size: 26px;left: 23%;top: 20%;}
+  div .email{font-size: 26px;left: 23%;top: 40%;}
+  div .form-split{width: 52%; height: 8%;left: 23%;top: 5%;}
+  div .form-split2{width: 52%; height: 8%;left: 23%; top: 25%;}
+  div .form-split3{width: 52%; height: 8%;left: 23%;top: 45%;}
+  div .form-split input{font-size:24px;border: 2px solid #EC622B;}
+  div .form-split2 input{font-size:24px;border: 2px solid #EC622B;}
+  div .form-split3 input{font-size:24px;border: 2px solid #EC622B;}
+  div .submit{top: 58%;left: 32.5%;width: 30%;}
+}
+@media only screen and (min-width: 501px) and (max-width: 599px) {
+  body {height: 100%;}
+  div .ratio2{padding-bottom: 133.333333%;}
+  .header2 .larrow {width: 7%;}
+  div .forma2{top: 23%; height: 75.2929688%;left: 2.8%;}
+  div .name{font-size: 26px;left: 23%;}
+  div .telephone{font-size: 26px;left: 23%;top: 20%;}
+  div .email{font-size: 26px;left: 23%;top: 40%;}
+  div .form-split{width: 60%; height: 8%;left: 23%;top: 7%;}
+  div .form-split2{width: 60%; height: 8%;left: 23%; top: 27%;}
+  div .form-split3{width: 60%; height: 8%;left: 23%;top: 47%;}
+  div .form-split input{font-size:24px;border: 2px solid #EC622B;}
+  div .form-split2 input{font-size:24px;border: 2px solid #EC622B;}
+  div .form-split3 input{font-size:24px;border: 2px solid #EC622B;}
+  div .submit{top: 60%;left: 34.5%;width: 35%;}
+}
+@media only screen and (min-width: 376px) and (max-width: 500px) {
+  body {height: 100%;}
+  div .ratio2{padding-bottom: 216.533333%;}
+  .header2 .larrow {width: 15%;}
+  div .forma2{top: 25%; height: 75.2929688%;left: 2.8%;}
+  div .name{font-size: 26px;left: 3%;}
+  div .telephone{font-size: 26px;left: 3%;top: 16%;}
+  div .email{font-size: 26px;left: 3%;top: 32%;}
+  div .form-split{width: 100%; height: 6%;left: 3%;top: 5%;}
+  div .form-split2{width: 100%; height: 6%;left: 3%; top: 21%;}
+  div .form-split3{width: 100%; height: 6%;left: 3%;top: 37%;}
+  div .form-split input{font-size:24px;border: 2px solid #EC622B;}
+  div .form-split2 input{font-size:24px;border: 2px solid #EC622B;}
+  div .form-split3 input{font-size:24px;border: 2px solid #EC622B;}
+  div .submit{top: 48%;left: 26%;width: 50%;}
+}
+@media only screen and (min-width: 319px) and (max-width: 375px) {
+  body {height: 100%;}
+  div .ratio2{padding-bottom: 216.533333%;}
+  .header2 .larrow {width: 18%; left: -1.5%;}
+  div .forma2{top: 25%; height: 75.2929688%;left: 2.8%;}
+  div .name{font-size: 24px;left: 3%;}
+  div .telephone{font-size: 24px;left: 3%;top: 18%;}
+  div .email{font-size: 24px;left: 3%;top: 36%;}
+  div .form-split{width: 100%; height: 6%;left: 3%;top: 7%;}
+  div .form-split2{width: 100%; height: 6%;left: 3%; top: 25%;}
+  div .form-split3{width: 100%; height: 6%;left: 3%;top: 43%;}
+  div .form-split input{font-size:24px;border: 2px solid #EC622B;}
+  div .form-split2 input{font-size:24px;border: 2px solid #EC622B;}
+  div .form-split3 input{font-size:24px;border: 2px solid #EC622B;}
+  div .submit{top: 53%;left: 24%;width: 55%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* afisha */
+@media only screen and (min-width: 1621px) and (max-width: 1680px) {
+  .content h2{font-size: 46px;}
+  .content h3{font-size: 34px;}
+  .aboutbox1 .about1{font-size: 22px;}
+  .aboutbox2 .about2{font-size: 22px;}
+  .aboutbox3 .about3{font-size: 22px;}
+  .aboutbox4 .about4{font-size: 22px;}
+  div .button1reg {margin-top: 2.01%;}
+  div .button2reg {margin-top: 3%;}
+}
+@media only screen and (min-width: 1441px) and (max-width: 1620px) {
+  .content h2{font-size: 42px;}
+  .content h3{font-size: 30px;}
+  .aboutbox1 .about1{font-size: 18px;}
+  .aboutbox2 .about2{font-size: 18px;}
+  .aboutbox3 .about3{font-size: 18px;}
+  .aboutbox4 .about4{font-size: 18px;}
+  div .button1reg {margin-top: 2.01%;}
+  div .button2reg {margin-top: 3%;}
+}
+@media only screen and (min-width: 1431px) and (max-width: 1440px) {
+
+}
+@media only screen and (min-width: 1196px) and (max-width: 1430px) {
+    .content h1{font-size: 40px;}
+    .content h2{font-size: 38px;}
+    .content h3{font-size: 26px;}
+    .aboutbox1 .about1{font-size: 16px;}
+    .aboutbox2 .about2{font-size: 16px;}
+    .aboutbox3 .about3{font-size: 16px;}
+    .aboutbox4 .about4{font-size: 16px;}
+    div .button1reg {margin-top: 2.01%;}
+    div .button2reg {margin-top: 3%;}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1195px) {
+    .content h1{font-size: 38px;}
+    .content h2{font-size: 36px;}
+    .content h3{font-size: 24px;}
+    .aboutbox1 .about1{font-size: 14px;}
+    .aboutbox2 .about2{font-size: 14px;}
+    .aboutbox3 .about3{font-size: 14px;}
+    .aboutbox4 .about4{font-size: 14px;}
+    div .button1reg {margin-top: 2.01%;}
+    div .button2reg {margin-top: 3%;}
+}
+@media only screen and (min-width: 920px) and (max-width: 1024px) {
+    .content h1{font-size: 32px;}
+    .content h2{font-size: 30px;}
+    .content h3{font-size: 20px;}
+    .aboutbox1 .about1{font-size: 14px; width: 80%;}
+    .aboutbox2 .about2{font-size: 14px; width: 80%;}
+    .aboutbox3 .about3{font-size: 14px; width: 80%;}
+    .aboutbox4 .about4{font-size: 14px; width: 80%;}
+    div .button1reg {margin-top: 2.01%;}
+    div .button2reg {margin-top: 3%;}
+}
+@media only screen and (min-width: 828px) and (max-width: 919px) {
+    .content h1{font-size: 26px;}
+    .content h2{font-size: 28px;}
+    .content h3{font-size: 18px;}
+    div .datenamebox1{margin-top: -42%;}
+    div .aboutbox1{margin-top: 3%;}
+    div .datenamebox2{margin-top: -42%;}
+    div .aboutbox2{margin-top: 3%;}
+    .aboutbox1 .about1{font-size: 14px; width: 90%;}
+    .aboutbox2 .about2{font-size: 14px; width: 90%;}
+    .aboutbox3 .about3{font-size: 14px; width: 90%;}
+    .aboutbox4 .about4{font-size: 14px; width: 90%;}
+    div .button1reg {margin-top: 3.7%; height: 1.3%;margin-left: 16.3%;}
+    div .button2reg {margin-top: 5.5%;height: 1.3%;margin-left: 50.7%;}
+}
+@media only screen and (min-width: 769px) and (max-width: 827px) {
+    div .ratio3{padding-bottom: 351.432292%;}
+    .content h1{font-size: 26px;}
+    .content h2{font-size: 28px;}
+    .content h3{font-size: 18px;}
+    div .datenamebox1{margin-top: -42%;margin-left: 53%;width: 40%;}
+    div .aboutbox1{margin-top: 5%;}
+    div .datenamebox2{margin-top: -42%;margin-left: 53%;width: 40%;}
+    div .datenamebox3{margin-top: -45%;margin-left: 53%;width: 46%;}
+    div .datenamebox4{margin-top: -46%;margin-left: 53%;width: 46%;}
+    div .aboutbox2{margin-top: 3%;}
+    .aboutbox1 .about1{font-size: 14px; width: 90%;width: 90%;margin-left: 6%;}
+    .aboutbox2 .about2{font-size: 14px; width: 90%;margin-left: 6%;}
+    .aboutbox3 .about3{font-size: 14px; width: 90%;margin-left: 6%;}
+    .aboutbox4 .about4{font-size: 14px; width: 90%;margin-left: 6%;}
+    div .button1reg {margin-top: 3.7%; height: 1.3%;margin-left: 25.5%;}
+    div .button2reg {margin-top: 5.5%;height: 1.3%;margin-left: 53%; width: 20%; }
+    div .crossbox{top: 10%;}
+    div .postbox1{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;}
+    div .postbox2{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;}
+    div .postbox3{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;}
+    div .postbox4{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;margin-top: 31.8%;}
+}
+@media only screen and (min-width: 700px) and (max-width: 768px) {
+    div .ratio3{padding-bottom: 351.432292%;}
+    div .afisha {margin-left:3.5%;margin-top: 7%;}
+    .content h1{font-size: 24px;}
+    .content h2{font-size: 28px;}
+    .content h3{font-size: 18px;}
+    div .datenamebox1{margin-top: -48%;margin-left: 53%;width: 40%;}
+    div .aboutbox1{margin-top: 5%;}
+    div .datenamebox2{margin-top: -48%;margin-left: 53%;width: 46%;}
+    div .aboutbox2{margin-top: 3%;}
+    div .datenamebox3{margin-top: -45%;margin-left: 53%;width: 46%;}
+    div .datenamebox4{margin-top: -46%;margin-left: 53%;width: 46%;}
+    .aboutbox1 .about1{font-size: 14px; width: 90%;margin-left: 6%;}
+    .aboutbox2 .about2{font-size: 14px; width: 95%;margin-left: 5.5%;}
+    .aboutbox3 .about3{font-size: 14px; width: 90%;margin-left: 5.5%;}
+    .aboutbox4 .about4{font-size: 14px; width: 90%;margin-left: 5.5%;}
+    div .button1reg {margin-top: 3.7%; height: 1.3%;margin-left: 25.5%;}
+    div .button2reg {margin-top: 5.5%;height: 1.3%;margin-left: 53%;width: 20%;}
+    div .footer2{height: 5.5%; top: 85.5%;}
+    div .postbox1{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;}
+    div .postbox2{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;}
+    div .postbox3{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;}
+    div .postbox4{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;margin-top: 31.8%;}
+    /* div .header{ display: none;} */
+    div .toppanel1_2{ display: block; }
+    div .burger {top: 41%; width: 7%;}
+    div .crossbox{top: 10%;}
+}
+@media only screen and (min-width: 634px) and (max-width: 699px) {
+    div .ratio3{padding-bottom: 351.432292%;}
+    div .afisha {margin-left:3.5%;margin-top: 7%;}
+    .content h1{font-size: 24px;}
+    .content h2{font-size: 26px;}
+    .content h3{font-size: 16px;}
+    div .datenamebox1{margin-top: -51%;margin-left: 53%;width: 40%;}
+    div .aboutbox1{margin-top: 5%;}
+    div .datenamebox2{margin-top: -50%;margin-left: 53%;width: 46%;}
+    div .aboutbox2{margin-top: 3%;}
+    div .datenamebox3{margin-top: -45%;margin-left: 53%;width: 46%;}
+    div .datenamebox4{margin-top: -46%;margin-left: 53%;width: 46%;}
+    .aboutbox1 .about1{font-size: 14px; width: 100%;margin-left: 6%;}
+    .aboutbox2 .about2{font-size: 14px; width: 100%;margin-left: 5.5%;}
+    .aboutbox3 .about3{font-size: 14px; width: 100%;margin-left: 5.5%;}
+    .aboutbox4 .about4{font-size: 14px; width: 100%;margin-left: 5.5%;}
+    div .button1reg {margin-top: 6%; height: 1.3%;margin-left: 25.5%;}
+    div .button2reg {margin-top: 8.5%;width: 20%;height: 1.3%;margin-left: 53%;}
+    div .footer2{height: 5.5%; top: 85.5%;}
+    div .postbox1{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;}
+    div .postbox2{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;}
+    div .postbox3{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;}
+    div .postbox4{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;margin-top: 31.8%;}
+    /* div .header{ display: none;} */
+    div .toppanel1_2{ display: block; }
+    div .burger {top: 41%; width: 7%;}
+    div .crossbox{top: 14%;}
+}
+@media only screen and (min-width: 501px) and (max-width: 633px) {
+    div .ratio3{padding-bottom: 351.432292%;}
+    div .afisha {margin-left:3.5%;margin-top: 7%;}
+    .content h1{font-size: 24px;}
+    .content h2{font-size: 26px;}
+    .content h3{font-size: 14px;}
+    div .datenamebox1{margin-top: -51%;margin-left: 53%;width: 40%;}
+    div .aboutbox1{margin-top: 5%;}
+    div .datenamebox2{margin-top: -53%;margin-left: 53%;width: 46%;}
+    div .aboutbox2{margin-top: 5.5%;}
+    div .aboutbox4{margin-top: 5.5%;}
+    div .datenamebox3{margin-top: -48%;margin-left: 53%;width: 46%;}
+    div .datenamebox4{margin-top: -49%;margin-left: 53%;width: 46%;}
+    .aboutbox1 .about1{font-size: 12px; width: 100%;margin-left: 6%;}
+    .aboutbox2 .about2{font-size: 12px; width: 100%;margin-left: 5.5%;}
+    .aboutbox3 .about3{font-size: 12px; width: 100%;margin-left: 5.5%;}
+    .aboutbox4 .about4{font-size: 12px; width: 100%;margin-left: 5.5%;}
+    div .button1reg {margin-top: 8%; height: 1.3%;margin-left: 25.5%;}
+    div .button2reg {margin-top: 13%;width: 20%;height: 1.3%;margin-left: 53%;}
+    div .footer2{height: 4.5%; top: 87%;}
+    div .postbox1{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;}
+    div .postbox2{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;}
+    div .postbox3{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;margin-top: 16%;}
+    div .postbox4{height: 19.3034457%;width: 45.3125%;margin-left:3.5%;margin-top: 31.5%;}
+    /* div .header{ display: none;} */
+    div .toppanel1_2{ display: block; }
+    div .burger {top: 41%; width: 7%;}
+    div .crossbox{top: 22%;}
+}
+@media only screen and (min-width: 492px) and (max-width: 500px) {
+  /* div .content{overflow-x: hidden;} */
+    div .ratio3{padding-bottom: 796.2%;}
+    div .afisha {margin-left:3.1%;margin-top: 2.5%;}
+    .content h1{font-size: 32px;}
+    .content h2{font-size: 36px;}
+    .content h3{font-size: 22px;}
+    div .toppanel1_2{ display: block; top: -0.2%;height: 2%; }
+    div .burger2 {width: 10%;height: 32%;}
+    div .footer2{height: 6.43863179%; top: 92%;}
+    div .postbox1{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%; top: 3%;}
+    div .postbox2{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%; top: 0.65%;}
+    div .postbox3{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%;top: 1.5%;}
+    div .postbox4{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%;}
+    div .datenamebox1{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -117.5%; height: 2.7%;}
+    div .datenamebox2{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -136.1%; height: 2.7%;}
+    div .datenamebox3{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -127.9%; height: 2.7%;}
+    div .datenamebox4{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -141%; height: 2.7%;}
+    div .aboutbox1{margin-top: 10%; margin-left: 3%; margin-top: 126%; width: 96%; }
+    .aboutbox1 .about1{font-size: 18px; width: 90%;}
+    div .aboutbox2{margin-top: 10%; margin-left: 3%; margin-top: 126%; width: 96%; }
+    .aboutbox2 .about2{font-size: 18px; width: 90%;}
+    div .aboutbox3{margin-top: 10%; margin-left: 3%; margin-top: 125%; width: 96%; }
+    .aboutbox3 .about3{font-size: 18px; width: 90%;}
+    div .aboutbox4{margin-top: 10%; margin-left: 3%; margin-top: 125%; width: 96%; }
+    .aboutbox4 .about4{font-size: 18px; width: 90%;}
+    div .button1reg {display: none;}
+    div .button2reg {display: none;}
+    /* div .green{display: block;} */
+}
+@media only screen and (min-width: 418px) and (max-width: 491px) {
+  /* div .content{overflow-x: hidden;} */
+    div .ratio3{padding-bottom: 796.2%;}
+    div .afisha {margin-left:3.1%;margin-top: 2.5%;}
+    .content h1{font-size: 30px;}
+    .content h2{font-size: 32px;}
+    .content h3{font-size: 18px;}
+    div .toppanel1_2{ display: block; top: -0.2%;height: 2%; }
+    div .burger2 {width: 10%;height: 32%;}
+    div .footer2{height: 6.43863179%; top: 92%;}
+    div .postbox1{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%; top: 3%;}
+    div .postbox2{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%; top: 0.65%;}
+    div .postbox3{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%;top: 1.5%;}
+    div .postbox4{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%;}
+    div .datenamebox1{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -117.5%; height: 2.7%;}
+    div .datenamebox2{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -136.1%; height: 2.7%;}
+    div .datenamebox3{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -127.9%; height: 2.7%;}
+    div .datenamebox4{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -141%; height: 2.7%;}
+    div .aboutbox1{margin-top: 10%; margin-left: 3%; margin-top: 126%; width: 96%; }
+    .aboutbox1 .about1{font-size: 16px; width: 90%;}
+    div .aboutbox2{margin-top: 10%; margin-left: 3%; margin-top: 126%; width: 96%; }
+    .aboutbox2 .about2{font-size: 16px; width: 90%;}
+    div .aboutbox3{margin-top: 10%; margin-left: 3%; margin-top: 125%; width: 96%; }
+    .aboutbox3 .about3{font-size: 16px; width: 90%;}
+    div .aboutbox4{margin-top: 10%; margin-left: 3%; margin-top: 125%; width: 96%; }
+    .aboutbox4 .about4{font-size: 16px; width: 90%;}
+    div .button1reg {display: none;}
+    div .button2reg {display: none;}
+}
+@media only screen and (min-width: 390px) and (max-width: 417px) {
+  /* div .content{overflow-x: hidden;} */
+    div .ratio3{padding-bottom: 796.2%;}
+    div .afisha {margin-left:3.1%;margin-top: 2.5%;}
+    .content h1{font-size: 28px;}
+    .content h2{font-size: 30px;}
+    .content h3{font-size: 16px;}
+    div .toppanel1_2{ display: block; top: -0.2%;height: 2%; }
+    div .burger2 {width: 10%;height: 32%;}
+    div .footer2{height: 6.43863179%; top: 92%;}
+    div .postbox1{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%; top: 3%;}
+    div .postbox2{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%; top: 0.65%;}
+    div .postbox3{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%;top: 1.5%;}
+    div .postbox4{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%;}
+    div .datenamebox1{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -117.5%; height: 2.7%;}
+    div .datenamebox2{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -136.1%; height: 2.7%;}
+    div .datenamebox3{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -127.9%; height: 2.7%;}
+    div .datenamebox4{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -141%; height: 2.7%;}
+    div .aboutbox1{margin-top: 10%; margin-left: 3%; margin-top: 126%; width: 96%; }
+    .aboutbox1 .about1{font-size: 15px; width: 90%;}
+    div .aboutbox2{margin-top: 10%; margin-left: 3%; margin-top: 126%; width: 96%; }
+    .aboutbox2 .about2{font-size: 15px; width: 90%;}
+    div .aboutbox3{margin-top: 10%; margin-left: 3%; margin-top: 125%; width: 96%; }
+    .aboutbox3 .about3{font-size: 15px; width: 90%;}
+    div .aboutbox4{margin-top: 10%; margin-left: 3%; margin-top: 125%; width: 96%; }
+    .aboutbox4 .about4{font-size: 15px; width: 90%;}
+    div .button1reg {display: none;}
+    div .button2reg {display: none;}
+}
+@media only screen and (min-width: 376px) and (max-width: 389px) {
+  /* div .content{overflow-x: hidden;} */
+    div .ratio3{padding-bottom: 796.2%;}
+    div .afisha {margin-left:3.1%;margin-top: 2.5%;}
+    .content h1{font-size: 26px;}
+    .content h2{font-size: 30px;}
+    .content h3{font-size: 16px;}
+    div .toppanel1_2{ display: block; top: -0.2%;height: 2%; }
+    div .burger2 {width: 10%;height: 32%;}
+    div .footer2{height: 6.43863179%; top: 92%;}
+    div .postbox1{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%; top: 3%;}
+    div .postbox2{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%; top: 0.65%;}
+    div .postbox3{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%;top: 1.5%;}
+    div .postbox4{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%;}
+    div .datenamebox1{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -117.5%; height: 2.7%;}
+    div .datenamebox2{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -136.1%; height: 2.7%;}
+    div .datenamebox3{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -127.9%; height: 2.7%;}
+    div .datenamebox4{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -141%; height: 2.7%;}
+    div .aboutbox1{margin-top: 10%; margin-left: 3%; margin-top: 126%; width: 98%; }
+    .aboutbox1 .about1{font-size: 14px; width: 90%;}
+    div .aboutbox2{margin-top: 10%; margin-left: 3%; margin-top: 126%; width: 95%; }
+    .aboutbox2 .about2{font-size: 14px; width: 90%;}
+    div .aboutbox3{margin-top: 10%; margin-left: 3%; margin-top: 125%; width: 95%; }
+    .aboutbox3 .about3{font-size: 14px; width: 90%;}
+    div .aboutbox4{margin-top: 10%; margin-left: 3%; margin-top: 125%; width: 95%; }
+    .aboutbox4 .about4{font-size: 14px; width: 90%;}
+    div .button1reg {display: none;}
+    div .button2reg {display: none;}
+}
+@media only screen and (min-width: 358px) and (max-width: 375px) {
+  /* div .content{overflow-x: hidden;} */
+    div .ratio3{padding-bottom: 796.2%;}
+    div .afisha {margin-left:3.1%;margin-top: 2.5%;}
+    .content h1{font-size: 24px;}
+    .content h2{font-size: 26px;}
+    .content h3{font-size: 16px;}
+    div .toppanel1_2{ display: block; top: -0.2%;height: 2%;}
+    div .burger2 {width: 10%;height: 32%;}
+    div .footer2{height: 6.43863179%; top: 92%;}
+    div .postbox1{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%; top: 3%;}
+    div .postbox2{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%; top: 0.65%;}
+    div .postbox3{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%;top: 1.5%;}
+    div .postbox4{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%;}
+    div .datenamebox1{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -117.5%; height: 2.7%;}
+    div .datenamebox2{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -136.1%; height: 2.7%;}
+    div .datenamebox3{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -127.9%; height: 2.7%;}
+    div .datenamebox4{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -141%; height: 2.7%;}
+    div .aboutbox1{margin-top: 10%; margin-left: 3%; margin-top: 126%; width: 96%; }
+    .aboutbox1 .about1{font-size: 14px; width: 90%;}
+    div .aboutbox2{margin-top: 10%; margin-left: 3%; margin-top: 126%; width: 96%; }
+    .aboutbox2 .about2{font-size: 14px; width: 90%;}
+    div .aboutbox3{margin-top: 10%; margin-left: 3%; margin-top: 125%; width: 96%; }
+    .aboutbox3 .about3{font-size: 14px; width: 90%;}
+    div .aboutbox4{margin-top: 10%; margin-left: 3%; margin-top: 125%; width: 96%; }
+    .aboutbox4 .about4{font-size: 14px; width: 90%;}
+    div .button1reg {display: none;}
+    div .button2reg {display: none;}
+}
+@media only screen and (min-width: 320px) and (max-width: 357px) {
+  /* div .content{overflow-x: hidden;} */
+    div .ratio3{padding-bottom: 796.2%;}
+    div .afisha {margin-left:3.1%;margin-top: 2.5%;}
+    .content h1{font-size: 22px;}
+    .content h2{font-size: 24px;}
+    .content h3{font-size: 14px;}
+    div .toppanel1_2{ display: block; top: -0.2%;height: 2%; }
+    div .burger2 {width: 10%;height: 32%;}
+    div .footer2{height: 6.43863179%; top: 92%;}
+    div .postbox1{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%; top: 3%;}
+    div .postbox2{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%; top: 0.65%;}
+    div .postbox3{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%;top: 1.5%;}
+    div .postbox4{height: 14.5539906%;width: 77.0666667%;margin-left:3.5%;}
+    div .datenamebox1{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -117.5%; height: 2.7%;}
+    div .datenamebox2{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -136.1%; height: 2.7%;}
+    div .datenamebox3{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -127.9%; height: 2.7%;}
+    div .datenamebox4{position: relative;height: 3%;width: 90%; margin-left: 3%;margin-top: -141%; height: 2.7%;}
+    div .aboutbox1{margin-top: 10%; margin-left: 3%; margin-top: 126%; width: 96%; }
+    .aboutbox1 .about1{font-size: 12px; width: 90%;}
+    div .aboutbox2{margin-top: 10%; margin-left: 3%; margin-top: 126%; width: 96%; }
+    .aboutbox2 .about2{font-size: 12px; width: 90%;}
+    div .aboutbox3{margin-top: 10%; margin-left: 3%; margin-top: 125%; width: 96%; }
+    .aboutbox3 .about3{font-size: 12px; width: 90%;}
+    div .aboutbox4{margin-top: 10%; margin-left: 3%; margin-top: 125%; width: 96%; }
+    .aboutbox4 .about4{font-size: 12px; width: 90%;}
+    div .button1reg {display: none;}
+    div .button2reg {display: none;}
+}

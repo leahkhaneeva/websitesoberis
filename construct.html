@@ -85,6 +85,34 @@
           text-decoration: none;
           margin-top:2%;
       }
+      .menu-items a:hover{
+        filter: brightness(1.1);
+      }
+      .toppanel{
+        position: absolute;
+        display: none;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 2.64204545%;
+        background-image: url('images/toppanel.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .burger{
+        position: absolute;
+        left: 3.5%;
+        top: 35%;
+        width: 7.68229167%;
+        height: 29.0322581%;
+        background-image: url('images/burger.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
       .constr{
         position: relative;
         display: block;
@@ -602,7 +630,7 @@
         margin-left:5.5%;
         margin-top: 4.8%;
       }
-      .text{
+      .text_opis{
         position: absolute;
         font-size: 16px;
         width: 100%;
@@ -632,11 +660,17 @@
         top: 1%;
         left: -0.1%;
       }
+      .a1:hover{
+        filter: brightness(1.1);
+      }
       .a2{
         position: absolute;
         font-size: 44px;
         top: 36%;
         left: -0.1%;
+      }
+      .a2:hover{
+        filter: brightness(1.1);
       }
       .footer{
         display: block;
@@ -718,6 +752,53 @@
       }
       html,* {
         cursor:none;
+      }
+      .sidebarfon{
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+        background: #E9E9E9;
+      }
+      .toppanel2{
+        position: relative;
+        display: block;
+        top: -0.6%;
+        left: 0%;
+        width: 100%;
+        height: 9.08203125%;
+        background-image: url('images/toppanel.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .cross1{
+        position: absolute;
+        left: 3.5%;
+        top: 35%;
+        width: 3.5%;
+        height: 34.5376344%;
+        background-image: url('images/cross1.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .sidebarfon a{
+        text-decoration: none;
+      }
+
+      .sidebarfontext{
+        position: relative;
+        left: 3.5%;
+        margin-top: 10%;
+        font-size: 32px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        width: 65%;
       }
 
     </style>
@@ -951,6 +1032,9 @@
                 <a href="contacts.html">как к нам попасть</a>
               </div>
            </div>
+           <div class="toppanel">
+             <div class="burger"></div>
+           </div>
            <div class="constr">
              <h1>ПРИМЕРЫ КУСОЧКОВ КОНСТРУКТОРА</h1>
            </div>
@@ -1008,10 +1092,10 @@
              </div>
            </div>
            <div class="opis">
-             <p class="text">Данные воображаемые друзья были оживлены в&nbsp;нашем центре и&nbsp;сейчас радуют своих хозяев каждый день. Наши клиенты всегда довольны результатом, потому что в&nbsp;Соберись у&nbsp;каждого есть возможность сделать своего друга индивидуальным, со&nbsp;своими личными внешними и&nbsp;личностными характеристиками.</p>
+             <p class="text_opis">Данные воображаемые друзья были оживлены в&nbsp;нашем центре и&nbsp;сейчас радуют своих хозяев каждый день. Наши клиенты всегда довольны результатом, потому что в&nbsp;Соберись у&nbsp;каждого есть возможность сделать своего друга индивидуальным, со&nbsp;своими личными внешними и&nbsp;личностными характеристиками.</p>
            </div>
            <div class="mark">
-             <p class="text">*все изображения были опубликованы с&nbsp;разрешения клиентов и&nbsp;их&nbsp;друзей</p>
+             <p class="text_opis">*все изображения были опубликованы с&nbsp;разрешения клиентов и&nbsp;их&nbsp;друзей</p>
            </div>
            <div class="links">
              <a class="a1" href="https://leahkhaneeva.github.io/web-plakat/">ВЕБ-ПЛАКАТ</a>
@@ -1025,6 +1109,17 @@
              <p class="adc">HSE ADC</p>
              <p class="year">2021</p>
 
+           </div>
+           <div class="sidebarfon">
+             <div class="toppanel2">
+               <div class="cross1"></div>
+             </div>
+             <a href="index.html"><p class="sidebarfontext">соберись</p></a>
+             <a href="afisha.html" ><p class="sidebarfontext">события</p></a>
+             <a href="construct.html" ><p class="sidebarfontext">конструктор друга</p></a>
+             <a href="istorii.html" ><p class="sidebarfontext">счастливые истории</p></a>
+             <a href="shop.html" ><p class="sidebarfontext">магазин мерча</p></a>
+             <a href="contacts.html" ><p class="sidebarfontext">как к нам попасть</p></a>
            </div>
            <div id="cursor"></div>
 
