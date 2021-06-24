@@ -23,9 +23,9 @@
         left: 0;
         top: 0;
         right: 0;
-        background: url('images/desktop4.jpg');
+        background: url('images/construct iphone 11.jpg');
         width: 100%;
-        height: 2922px;
+        height: 3576px;
         background-size: 100% auto ;
         display: block;
         opacity: .3;
@@ -40,7 +40,7 @@
         position:relative;
         width:100%;
       }
-      .ratio{
+      .ratio4{
         position:relative;
         padding-bottom: 202.916667%;
         background:transparent;
@@ -88,20 +88,20 @@
       .menu-items a:hover{
         filter: brightness(1.1);
       }
-      .toppanel{
+      .toppanel1_3{
         position: absolute;
         display: none;
         top: 0%;
         left: 0%;
         width: 100%;
-        height: 2.64204545%;
-        background-image: url('images/toppanel.svg');
+        height: 3.92570705%;
+        background-image: url('images/toppanel1_2.svg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100% auto;
       }
-      .burger{
+      .burger3{
         position: absolute;
         left: 3.5%;
         top: 35%;
@@ -483,7 +483,7 @@
         transform: scale(1.05);
         /* transform: rotate(5deg); */
       }
-      .name{
+      .drugname{
         position: absolute;
         font-size: 18px;
         top: 5%;
@@ -564,7 +564,7 @@
       .drug4:hover{
         transform: scale(1.05);
       }
-      .name{
+      .drugname{
         position: absolute;
         font-size: 18px;
         top: 5%;
@@ -672,7 +672,7 @@
       .a2:hover{
         filter: brightness(1.1);
       }
-      .footer{
+      .footer3{
         display: block;
         position: relative;
         background: #F0F0F0;
@@ -710,12 +710,18 @@
         top: 65%;
         line-height: 110%;
       }
+      .korobka4{
+        position: absolute;
+        height: 100%;
+        width: 12%;
+        right: 3%;
+      }
       .design{
         position: absolute;
         font-size: 16px;
         font-family: "Steinbeck";
         color: #EC622B;
-        left: 82.5%;
+        left: 3%;
         top: 25%;
         line-height: 110%;
       }
@@ -724,7 +730,7 @@
         font-size: 16px;
         font-family: "Steinbeck";
         color: #EC622B;
-        left: 82.5%;
+        left: 3%;
         top: 46%;
         line-height: 110%;
       }
@@ -733,7 +739,7 @@
         font-size: 16px;
         font-family: "Steinbeck";
         color: #EC622B;
-        left: 82.5%;
+        left: 3%;
         top: 65%;
         line-height: 110%;
       }
@@ -799,6 +805,10 @@
         font-family: "Steinbeck";
         color: #EC622B;
         width: 65%;
+      }
+      .bodysidebar{
+        height:100vh;
+        overflow: hidden;
       }
 
     </style>
@@ -1010,6 +1020,17 @@
   $("#cursor").removeClass("fill");
   });
   });
+  $(document).ready(function(){
+    $(".burger3").click(function(){
+    $(".sidebarfon").css('display', 'block');
+    $("body").addClass("bodysidebar");
+    });
+    $(".cross1").click(function(){
+      $(".sidebarfon").css('display', 'none');
+    $("body").removeClass("bodysidebar");
+
+  });
+  });
     });
 
 
@@ -1020,7 +1041,7 @@
   </head>
   <body>
      <div class="wrapper">
-       <div class="ratio">
+       <div class="ratio4">
          <div class="content">
            <div class="header">
               <div class="menu-items">
@@ -1032,8 +1053,8 @@
                 <a href="contacts.html">как к нам попасть</a>
               </div>
            </div>
-           <div class="toppanel">
-             <div class="burger"></div>
+           <div class="toppanel1_3">
+             <div class="burger3"></div>
            </div>
            <div class="constr">
              <h1>ПРИМЕРЫ КУСОЧКОВ КОНСТРУКТОРА</h1>
@@ -1063,32 +1084,32 @@
              <div class="cont1">
                 <div class="drug1">
                 </div>
-                <p class="name">Валера</p>
+                <p class="drugname">Валера</p>
              </div>
              <div class="cont2">
                 <div class="drug2">
                 </div>
-                <p class="name">Вуфи</p>
+                <p class="drugname">Вуфи</p>
              </div>
              <div class="cont3">
                 <div class="drug3">
                 </div>
-                <p class="name">Биба</p>
+                <p class="drugname">Биба</p>
              </div>
              <div class="cont4">
                 <div class="drug4">
                 </div>
-                <p class="name">Китти</p>
+                <p class="drugname">Китти</p>
              </div>
              <div class="cont5">
                 <div class="drug5">
                 </div>
-                <p class="name">Сони</p>
+                <p class="drugname">Сони</p>
              </div>
              <div class="cont6">
                 <div class="drug6">
                 </div>
-                <p class="name">Вася</p>
+                <p class="drugname">Вася</p>
              </div>
            </div>
            <div class="opis">
@@ -1101,13 +1122,15 @@
              <a class="a1" href="https://leahkhaneeva.github.io/web-plakat/">ВЕБ-ПЛАКАТ</a>
              <a class="a2" href="https://leahkhaneeva.github.io/webplakat3/">ИГРА-СОБИРАЛКА</a>
            </div>
-           <div class="footer">
+           <div class="footer3">
              <p class="address">Москва, Проспект Ленина, 45, строение 1</p>
              <p class="phone">+7-499-252-48-61</p>
              <p class="mail">soberis@gmail.com</p>
-             <p class="design">Дизайн: Ханеева Лия</p>
+             <div class="korobka4">
+             <p class="design">Ханеева Лия</p>
              <p class="adc">HSE ADC</p>
              <p class="year">2021</p>
+             </div>
 
            </div>
            <div class="sidebarfon">

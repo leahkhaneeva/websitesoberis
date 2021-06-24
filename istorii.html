@@ -40,7 +40,7 @@
         position:relative;
         width:100%;
       }
-      .ratio{
+      .ratio5{
         position:relative;
         padding-bottom: 92.9166667%;
         background:transparent;
@@ -98,7 +98,7 @@
         margin-left:5.5%;
         margin-top: 15.2%;
       }
-      .cont1{
+      .contist1{
         position: absolute;
         display: block;
         height: 48.3080513%;
@@ -157,13 +157,13 @@
         background-size: 100% auto;
       }
 
-      .text{
+      .textistorii{
         position: absolute;
         font-size: 32px;
         left: 3.6%;
         top: 24.9%;
       }
-      .name{
+      .nameistorii{
         position: absolute;
         font-size: 16px;
         left: 3.6%;
@@ -175,7 +175,7 @@
         top: 93.5%;
         right: 4%;
       }
-      .cont2{
+      .contist2{
         position: absolute;
         display: block;
         height: 48.3080513%;
@@ -184,7 +184,7 @@
         overflow: hidden;
         left: 33.8%;
       }
-      .cont3{
+      .contist3{
         position: absolute;
         display: block;
         height: 48.3080513%;
@@ -193,7 +193,7 @@
         overflow: hidden;
         right: 0%;
       }
-      .cont4{
+      .contist4{
         position: absolute;
         display: block;
         height: 48.3080513%;
@@ -202,7 +202,7 @@
         overflow: hidden;
         bottom: 0%;
       }
-      .cont5{
+      .contist5{
         position: absolute;
         display: block;
         height: 48.3080513%;
@@ -212,7 +212,7 @@
         left: 33.8%;
         bottom: 0%;
       }
-      .cont6{
+      .contist6{
         position: absolute;
         display: block;
         height: 48.3080513%;
@@ -222,7 +222,7 @@
         right: 0%;
         bottom: 0%;
       }
-      .footer{
+      .footer4{
         display: block;
         position: relative;
         background: #F0F0F0;
@@ -260,12 +260,18 @@
         top: 65%;
         line-height: 110%;
       }
+      .korobka3{
+        position: absolute;
+        height: 100%;
+        width: 13.5%;
+        right: 0%;
+      }
       .design{
         position: absolute;
         font-size: 16px;
         font-family: "Steinbeck";
         color: #EC622B;
-        left: 82.5%;
+        left: 0%;
         top: 25%;
         line-height: 110%;
       }
@@ -274,7 +280,7 @@
         font-size: 16px;
         font-family: "Steinbeck";
         color: #EC622B;
-        left: 82.5%;
+        left: 0%;
         top: 46%;
         line-height: 110%;
       }
@@ -283,7 +289,7 @@
         font-size: 16px;
         font-family: "Steinbeck";
         color: #EC622B;
-        left: 82.5%;
+        left: 0%;
         top: 65%;
         line-height: 110%;
       }
@@ -303,6 +309,83 @@
       html,* {
         cursor:none;
       }
+      .toppanel1_4{
+        position: absolute;
+        display: none;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 6.3394683%;
+        background-image: url('images/toppanel1_2.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .burger4{
+        position: absolute;
+        left: 3.5%;
+        top: 35%;
+        width: 7.68229167%;
+        height: 29.0322581%;
+        background-image: url('images/burger.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .sidebarfon{
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+        background: #E9E9E9;
+      }
+      .toppanel2{
+        position: relative;
+        display: block;
+        top: -0.6%;
+        left: 0%;
+        width: 100%;
+        height: 9.08203125%;
+        background-image: url('images/toppanel.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .cross1{
+        position: absolute;
+        left: 3.5%;
+        top: 35%;
+        width: 3.5%;
+        height: 34.5376344%;
+        background-image: url('images/cross1.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+      }
+      .sidebarfon a{
+        text-decoration: none;
+      }
+
+      .sidebarfontext{
+        position: relative;
+        left: 3.5%;
+        margin-top: 10%;
+        font-size: 32px;
+        font-family: "Steinbeck";
+        color: #EC622B;
+        width: 65%;
+      }
+      .bodysidebar{
+        height:100vh;
+        overflow: hidden;
+      }
+
 
     </style>
 
@@ -314,11 +397,22 @@
     left:e.pageX - 10,
     top:e.pageY - 10
   });
-  $("a").mouseover(function(){
+  $("a, .burger4, .cross1").mouseover(function(){
 $("#cursor").addClass("fill");
 });
-$("a").mouseout(function(){
+$("a, .burger4, .cross1").mouseout(function(){
 $("#cursor").removeClass("fill");
+});
+});
+$(document).ready(function(){
+  $(".burger4").click(function(){
+  $(".sidebarfon").css('display', 'block');
+  $("body").addClass("bodysidebar");
+  });
+  $(".cross1").click(function(){
+    $(".sidebarfon").css('display', 'none');
+  $("body").removeClass("bodysidebar");
+
 });
 });
   });
@@ -329,7 +423,7 @@ $("#cursor").removeClass("fill");
   </head>
   <body>
     <div class="wrapper">
-      <div class="ratio">
+      <div class="ratio5">
         <div class="content">
           <div class="header">
              <div class="menu-items">
@@ -341,58 +435,74 @@ $("#cursor").removeClass("fill");
                <a href="contacts.html">как к нам попасть</a>
              </div>
           </div>
+          <div class="toppanel1_4">
+            <div class="burger4"></div>
+          </div>
           <div class="istoriibox">
-            <div class="cont1">
+            <div class="contist1">
               <div class="face one">
               </div>
-              <p class="text">&laquo;БЛАГОДАРЯ ЭТОМУ ЦЕНТРУ У&nbsp;МЕНЯ ЕСТЬ САМЫЙ НАСТОЯЩИЙ ДРУГ, КОТОРЫЙ ГОТОВ ПОДДЕРЖАТЬ МЕНЯ В&nbsp;ТРУДНУЮ МИНУТУ.&raquo;</p>
-              <p class="name">Мария П.</p>
+              <p class="textistorii">&laquo;БЛАГОДАРЯ ЭТОМУ ЦЕНТРУ У&nbsp;МЕНЯ ЕСТЬ САМЫЙ НАСТОЯЩИЙ ДРУГ, КОТОРЫЙ ГОТОВ ПОДДЕРЖАТЬ МЕНЯ В&nbsp;ТРУДНУЮ МИНУТУ.&raquo;</p>
+              <p class="nameistorii">Мария П.</p>
               <p class="god">2020 год</p>
             </div>
-            <div class="cont2">
+            <div class="contist2">
               <div class="face two">
               </div>
-              <p class="text">&laquo;ПОЯВЛЕНИЕ МИХАИЛА СТАЛО ЛУЧШИМ СОБЫТИЕМ В&nbsp;МОЕЙ ЖИЗНИ, НАКОНЕЦ-ТО Я&nbsp;НЕ&nbsp;ЧУВСТВУЮ СЕБЯ ТАКИМ ОДИНОКИМ!&raquo;</p>
-              <p class="name">Виктор Д.</p>
+              <p class="textistorii">&laquo;ПОЯВЛЕНИЕ МИХАИЛА СТАЛО ЛУЧШИМ СОБЫТИЕМ В&nbsp;МОЕЙ ЖИЗНИ, НАКОНЕЦ-ТО Я&nbsp;НЕ&nbsp;ЧУВСТВУЮ СЕБЯ ТАКИМ ОДИНОКИМ!&raquo;</p>
+              <p class="nameistorii">Виктор Д.</p>
               <p class="god">2019 год</p>
             </div>
-            <div class="cont3">
+            <div class="contist3">
               <div class="face three">
               </div>
-              <p class="text">&laquo;ИДЕЯ ЦЕНТРА КЛАСС! СОВЕТОВАЛИ ВАС УЖЕ МНОГО РАЗ. НАДЕЮСЬ, СМОГУ ПОСЕТИТЬ ВАШ ЦЕНТР И&nbsp;ОБРЕСТИ НАСТОЯЩЕГО ДРУГА!&raquo;</p>
-              <p class="name">Екатерина Г.</p>
+              <p class="textistorii">&laquo;ИДЕЯ ЦЕНТРА КЛАСС! СОВЕТОВАЛИ ВАС УЖЕ МНОГО РАЗ. НАДЕЮСЬ, СМОГУ ПОСЕТИТЬ ВАШ ЦЕНТР И&nbsp;ОБРЕСТИ НАСТОЯЩЕГО ДРУГА!&raquo;</p>
+              <p class="nameistorii">Екатерина Г.</p>
               <p class="god">2020 год</p>
             </div>
-            <div class="cont4">
+            <div class="contist4">
               <div class="face four">
               </div>
-              <p class="text">&laquo;МОЙ РЕБЕНОК ТЕПЕРЬ НЕ&nbsp;ОДИНОК. НОВЫЙ ДРУГ ПОМОГАЕТ ЕМУ СТАНОВИТЬСЯ УВЕРЕННЕЕ И&nbsp;УЧИТ ОБЩЕНИЮ. СПАСИБО!&raquo;</p>
-              <p class="name">Михаил Л.</p>
+              <p class="textistorii">&laquo;МОЙ РЕБЕНОК ТЕПЕРЬ НЕ&nbsp;ОДИНОК. НОВЫЙ ДРУГ ПОМОГАЕТ ЕМУ СТАНОВИТЬСЯ УВЕРЕННЕЕ И&nbsp;УЧИТ ОБЩЕНИЮ. СПАСИБО!&raquo;</p>
+              <p class="nameistorii">Михаил Л.</p>
               <p class="god">2019 год</p>
             </div>
-            <div class="cont5">
+            <div class="contist5">
               <div class="face five">
               </div>
-              <p class="text">&laquo;ПОМИМО ТОГО, ЧТО ИДЕЯ ЦЕНТРА СУПЕР, У&nbsp;ВАС ЕЩЕ И&nbsp;ОЧЕНЬ ИНТЕРЕСНЫЙ ПАРК! МЫ&nbsp;ВСЕЙ СЕМЬЕЙ В&nbsp;ПОЛНОМ ВОСТОРГЕ!&raquo;</p>
-              <p class="name">Елизавета Ц.</p>
+              <p class="textistorii">&laquo;ПОМИМО ТОГО, ЧТО ИДЕЯ ЦЕНТРА СУПЕР, У&nbsp;ВАС ЕЩЕ И&nbsp;ОЧЕНЬ ИНТЕРЕСНЫЙ ПАРК! МЫ&nbsp;ВСЕЙ СЕМЬЕЙ В&nbsp;ПОЛНОМ ВОСТОРГЕ!&raquo;</p>
+              <p class="nameistorii">Елизавета Ц.</p>
               <p class="god">2020 год</p>
             </div>
-            <div class="cont6">
+            <div class="contist6">
               <div class="face six">
               </div>
-              <p class="text">&laquo;ОБРАТИЛАСЬ В&nbsp;ВАШ ЦЕНТР И&nbsp;ЭТО СТАЛО МОИМ ЛУЧШИМ РЕШЕНИЕМ! СПАСИБО ЗА&nbsp;ТО, ЧТО ПОДАРИЛИ ХОРОШЕГО ДРУГА!&raquo;</p>
-              <p class="name">Карина М.</p>
+              <p class="textistorii">&laquo;ОБРАТИЛАСЬ В&nbsp;ВАШ ЦЕНТР И&nbsp;ЭТО СТАЛО МОИМ ЛУЧШИМ РЕШЕНИЕМ! СПАСИБО ЗА&nbsp;ТО, ЧТО ПОДАРИЛИ ХОРОШЕГО ДРУГА!&raquo;</p>
+              <p class="nameistorii">Карина М.</p>
               <p class="god">2021 год</p>
             </div>
           </div>
-          <div class="footer">
+          <div class="footer4">
             <p class="address">Москва, Проспект Ленина, 45, строение 1</p>
             <p class="phone">+7-499-252-48-61</p>
             <p class="mail">soberis@gmail.com</p>
-            <p class="design">Дизайн: Ханеева Лия</p>
+            <div class="korobka3">
+            <p class="design">Ханеева Лия</p>
             <p class="adc">HSE ADC</p>
             <p class="year">2021</p>
+            </div>
 
+          </div>
+          <div class="sidebarfon">
+            <div class="toppanel2">
+              <div class="cross1"></div>
+            </div>
+            <a href="index.html"><p class="sidebarfontext">соберись</p></a>
+            <a href="afisha.html" ><p class="sidebarfontext">события</p></a>
+            <a href="construct.html" ><p class="sidebarfontext">конструктор друга</p></a>
+            <a href="istorii.html" ><p class="sidebarfontext">счастливые истории</p></a>
+            <a href="shop.html" ><p class="sidebarfontext">магазин мерча</p></a>
+            <a href="contacts.html" ><p class="sidebarfontext">как к нам попасть</p></a>
           </div>
           <div id="cursor"></div>
 

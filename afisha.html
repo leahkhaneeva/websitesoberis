@@ -267,7 +267,7 @@
         /* background: black; */
         /* cursor: url('images/cursor.svg'), auto; */
       }
-      .cross{
+      .crossafisha{
         width: 62%;
         height: 70%;
         position: absolute;
@@ -537,6 +537,10 @@
         color: #EC622B;
         width: 65%;
       }
+      .bodysidebar{
+        height:100vh;
+        overflow: hidden;
+      }
 
 
     </style>
@@ -576,21 +580,16 @@ $("#cursor").removeClass("fill");
 });
 
 $(document).ready(function(){
-$(".burger2").click(function(){
-$(".sidebarfon").css('display', 'block');
-});
-$("body").css({
-height: '100vh',
-// overflow: 'hidden'
-});
-$(".cross1").click(function(){
-$(".sidebarfon").css('display', 'none');
+  $(".burger2").click(function(){
+  $(".sidebarfon").css('display', 'block');
+  $("body").addClass("bodysidebar");
+  });
+  $(".cross1").click(function(){
+    $(".sidebarfon").css('display', 'none');
+  $("body").removeClass("bodysidebar");
 
 });
-// $(".post1").click(function(){
-// $(".green").css('display', 'block');
-//
-// });
+
 });
 
 
@@ -696,7 +695,7 @@ $(".sidebarfon").css('display', 'none');
             <div class="dark"></div>
             <div class="popup">
               <div class="crossbox">
-            <div class="cross">
+            <div class="crossafisha">
             </div>
             </div>
             </div>
