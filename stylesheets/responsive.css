@@ -1727,6 +1727,7 @@
   div .nameshop2{font-size: 20px;}
   div .price{font-size: 20px;}
   div .price2{font-size: 20px;}
+  div .crossboxshop{height:30%; top: 1.5%;}
 }
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
 }
@@ -1806,7 +1807,7 @@
   div .item-box15{height: 5.96407997%;width: 100%;left:0%;top: 89.6%;}
   div .buybutton1{width: 40%;left: 29%;}
   div .buybutton2{width: 38%;height: 13%;left: 31%;}
-  div .crossbox2{height:30%;}
+  div .crossboxshop{height:30%; top: 12%; left: 93.2%;}
   }
 @media only screen and (min-width: 320px) and (max-width: 375px) {
   div .ratio6{padding-bottom: 1692.26667%;}
@@ -1836,5 +1837,5 @@
   div .item-box15{height: 5.96407997%;width: 100%;left:0%;top: 89.6%;}
   div .buybutton1{width: 40%;left: 29%;}
   div .buybutton2{width: 38%;height: 13%;left: 31%;}
-  div .crossbox2{height:30%; top:14%; }
+  div .crossboxshop{height:30%; top: 20%; left: 93.2%;}
 }

@@ -681,7 +681,7 @@
       top: 65%;
       line-height: 110%;
     }
-    .popup{
+    .popupshop{
       display: none;
       position: fixed;
       width: 46.5277778%;
@@ -694,16 +694,16 @@
       background-repeat: no-repeat;
       background-size: 100% auto;
     }
-    .crossbox2{
+    .crossboxshop{
       position: absolute;
-      top: 4.5%;
+      top: 7.5%;
       left: 93.5%;
       width: 4.5%;
       height: 12%;
       /* background: black; */
       /* cursor: url('images/cursor.svg'), auto; */
     }
-    .cross{
+    .crossshoppop{
       width: 62%;
       height: 70%;
       position: absolute;
@@ -715,7 +715,7 @@
       background-repeat: no-repeat;
       background-size: 100% auto;
     }
-    .cross:hover{
+    .crossshoppop:hover{
       filter: brightness(1.1);
     }
     .dark{
@@ -830,19 +830,19 @@
     <script type="text/javascript">
     $(document).ready(function(){
     $(".buybutton1").click(function(){
-    $(".popup").css('display', 'block');
+    $(".popupshop").css('display', 'block');
     $(".dark").css('display', 'block');
     });
-    $(".crossbox2").click(function(){
-    $(".popup").css('display', 'none');
+    $(".crossboxshop").click(function(){
+    $(".popupshop").css('display', 'none');
     $(".dark").css('display', 'none');
     });
     $(".buybutton2").click(function(){
-    $(".popup").css('display', 'block');
+    $(".popupshop").css('display', 'block');
     $(".dark").css('display', 'block');
     });
-    $(".crossbox2").click(function(){
-    $(".popup").css('display', 'none');
+    $(".crossboxshop").click(function(){
+    $(".popupshop").css('display', 'none');
     $(".dark").css('display', 'none');
     });
 
@@ -852,10 +852,10 @@
     top:e.pageY - 10
   });
 
-  $("a, .cross, .buybutton1, .buybutton2, .burger5, .cross1").mouseover(function(){
+  $("a, .crossshoppop, .buybutton1, .buybutton2, .burger5, .cross1").mouseover(function(){
 $("#cursor").addClass("fill");
 });
-$("a, .cross, .buybutton1, .buybutton2, .burger5, .cross1").mouseout(function(){
+$("a, .crossshoppop, .buybutton1, .buybutton2, .burger5, .cross1").mouseout(function(){
 $("#cursor").removeClass("fill");
 });
 });
@@ -1046,9 +1046,9 @@ $(document).ready(function(){
 
         </div>
         <div class="dark"></div>
-        <div class="popup">
-          <div class="crossbox2">
-        <div class="cross"></div>
+        <div class="popupshop">
+          <div class="crossboxshop">
+        <div class="crossshoppop"></div>
         </div>
         </div>
         <div class="sidebarfon">
